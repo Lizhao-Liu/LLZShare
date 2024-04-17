@@ -1,0 +1,76 @@
+PODS:
+  - LLZShareDY (0.1.0):
+    - LLZShareLib (~> 0.1)
+  - LLZShareKS (0.1.0):
+    - LLZShareLib (~> 0.1)
+  - LLZShareLib (0.1.0):
+    - LLZShareLib/Core (= 0.1.0)
+    - LLZShareLib/ShareUI (= 0.1.0)
+    - LLZShareService (~> 0.1)
+    - YYModel (~> 1.0)
+  - LLZShareLib/Core (0.1.0):
+    - LLZShareService (~> 0.1)
+    - YYModel (~> 1.0)
+  - LLZShareLib/ShareUI (0.1.0):
+    - LLZShareService (~> 0.1)
+    - Masonry
+    - YYModel (~> 1.0)
+  - LLZShareQQ (0.1.0):
+    - LLZShareLib (~> 0.1)
+    - TencentOpenAPI (~> 1.2)
+  - LLZShareService (0.1.0)
+  - LLZShareWX (0.1.0):
+    - LLZShareLib (~> 0.1)
+    - LLZShareService (~> 0.1)
+  - Masonry (1.1.0)
+  - TencentOpenAPI (1.2.0)
+  - WechatOpenSDK (1.8.7.1)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - LLZShareDY (from `../`)
+  - LLZShareKS (from `../`)
+  - LLZShareLib (from `../`)
+  - LLZShareQQ (from `../`)
+  - LLZShareService (from `../`)
+  - LLZShareWX (from `../`)
+  - TencentOpenAPI (= 1.2.0)
+  - WechatOpenSDK (= 1.8.7.1)
+
+SPEC REPOS:
+  "git@code.amh-group.com:cocoapods/mb-thirdpartyspecrepo.git":
+    - TencentOpenAPI
+    - WechatOpenSDK
+  trunk:
+    - Masonry
+    - YYModel
+
+EXTERNAL SOURCES:
+  LLZShareDY:
+    :path: "../"
+  LLZShareKS:
+    :path: "../"
+  LLZShareLib:
+    :path: "../"
+  LLZShareQQ:
+    :path: "../"
+  LLZShareService:
+    :path: "../"
+  LLZShareWX:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LLZShareDY: ff668f09aa17bab98c1295fc2f76e59fbe759413
+  LLZShareKS: 95b006352fb03f0f77cf1d4885b68aa798a7ee54
+  LLZShareLib: 0034652389034208569e2ee692bad775cf37f45b
+  LLZShareQQ: 53dcdcaed44d180663d8bd67bbabdc9f0080eb63
+  LLZShareService: d70f80f27b731575d29f0398ec54bf9734a46c09
+  LLZShareWX: 20233eee08cdb147669c2222ed1d67bbe650faba
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  TencentOpenAPI: dd067035e8d96cd4fa618ecfac695ba71a2420e2
+  WechatOpenSDK: f7c4b1d0e49e129c37f80283ad7cdd34cc5d7a9e
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: af1b76b7545af82c829f019c9e39e4afb47612b1
+
+COCOAPODS: 1.15.2

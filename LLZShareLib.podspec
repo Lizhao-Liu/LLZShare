@@ -40,6 +40,6 @@ Pod::Spec.new do |s|
     ss.dependency 'Masonry'
   end
   
-  s.dependency 'LLZShareService','~> 0.2'
+  s.dependency 'LLZShareService','~> 0.1'
   s.dependency 'YYModel', '~> 1.0'
 end

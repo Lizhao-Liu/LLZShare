@@ -155,14 +155,14 @@
     return nil;
 }
 
-- (NSArray * _Nullable)implClassesInBundleForServiceProtocol:(NSString *)protocolStr {
-    static dispatch_once_t onceToken;
-    static NSMutableDictionary<NSString *, NSMutableArray *> *globalUnRegisteredServiceClassDict;
-    dispatch_once(&onceToken, ^{
-        globalUnRegisteredServiceClassDict = [self unRegisteredServiceClassDict];
-    });
-    return [globalUnRegisteredServiceClassDict objectForKey:protocolStr];
-}
+//- (NSArray * _Nullable)implClassesInBundleForServiceProtocol:(NSString *)protocolStr {
+//    static dispatch_once_t onceToken;
+//    static NSMutableDictionary<NSString *, NSMutableArray *> *globalUnRegisteredServiceClassDict;
+//    dispatch_once(&onceToken, ^{
+//        globalUnRegisteredServiceClassDict = [self unRegisteredServiceClassDict];
+//    });
+//    return [globalUnRegisteredServiceClassDict objectForKey:protocolStr];
+//}
 
 //获取服务实现实例数组
 - (NSArray<id<LLZServiceProtocol>> * _Nullable)servicesWithClassList:(NSArray *)serviceClassList withName:(nullable NSString *)serviceName fromContext:(nullable id<LLZContextProtocol>)context {
@@ -242,46 +242,46 @@
     }
     return resultProtocolList;
 }
-
-- (NSMutableDictionary<NSString *,NSMutableArray *> *)unRegisteredServiceClassDict {
-    CFAbsoluteTime startTime = CFAbsoluteTimeGetCurrent();
-    NSMutableDictionary<NSString *, NSMutableArray *> *_unRegisteredServiceClassDict = @{}.mutableCopy;
-    unsigned int classCount;
-    const char **classes;
-    Dl_info info;
-
-    dladdr(&_mh_execute_header, &info);
-    classes = objc_copyClassNamesForImage(info.dli_fname, &classCount);
-
-    dispatch_semaphore_t semaphore = dispatch_semaphore_create(1);
-    dispatch_apply(classCount, dispatch_get_global_queue(0, 0), ^(size_t index) {
-        NSString *className = [NSString stringWithCString:classes[index] encoding:NSUTF8StringEncoding];
-        Class class = NSClassFromString(className);
-        NSArray *serviceProtocolList = [self protocolListOfClass:class withBaseProtocol:@protocol(LLZServiceProtocol)];
-        for (Protocol *serviceProtocol in serviceProtocolList) {
-            dispatch_semaphore_wait(semaphore, DISPATCH_TIME_FOREVER);
-            NSString *key = NSStringFromProtocol(serviceProtocol);
-            id object = [_unRegisteredServiceClassDict objectForKey:key];
-            NSMutableArray *serviceClassList = nil;
-            if (object) {
-                if ([object isKindOfClass:[NSMutableArray class]]) {
-                    serviceClassList = (NSMutableArray *)object;
-                }
-            }
-            if (!serviceClassList) {
-                serviceClassList = [NSMutableArray array];
-                [_unRegisteredServiceClassDict setObject:serviceClassList forKey:key];
-            }
-            if (![serviceClassList containsObject:class]) {
-                [serviceClassList addObject:class];
-            }
-            dispatch_semaphore_signal(semaphore);
-        }
-    });
-    CFAbsoluteTime endTime = (CFAbsoluteTimeGetCurrent() - startTime);
-    NSLog(@"方法耗时: %f ms", endTime * 1000.0);
-    return _unRegisteredServiceClassDict;
-}
+//
+//- (NSMutableDictionary<NSString *,NSMutableArray *> *)unRegisteredServiceClassDict {
+//    CFAbsoluteTime startTime = CFAbsoluteTimeGetCurrent();
+//    NSMutableDictionary<NSString *, NSMutableArray *> *_unRegisteredServiceClassDict = @{}.mutableCopy;
+//    unsigned int classCount;
+//    const char **classes;
+//    Dl_info info;
+//
+//    dladdr(&_mh_execute_header, &info);
+//    classes = objc_copyClassNamesForImage(info.dli_fname, &classCount);
+//
+//    dispatch_semaphore_t semaphore = dispatch_semaphore_create(1);
+//    dispatch_apply(classCount, dispatch_get_global_queue(0, 0), ^(size_t index) {
+//        NSString *className = [NSString stringWithCString:classes[index] encoding:NSUTF8StringEncoding];
+//        Class class = NSClassFromString(className);
+//        NSArray *serviceProtocolList = [self protocolListOfClass:class withBaseProtocol:@protocol(LLZServiceProtocol)];
+//        for (Protocol *serviceProtocol in serviceProtocolList) {
+//            dispatch_semaphore_wait(semaphore, DISPATCH_TIME_FOREVER);
+//            NSString *key = NSStringFromProtocol(serviceProtocol);
+//            id object = [_unRegisteredServiceClassDict objectForKey:key];
+//            NSMutableArray *serviceClassList = nil;
+//            if (object) {
+//                if ([object isKindOfClass:[NSMutableArray class]]) {
+//                    serviceClassList = (NSMutableArray *)object;
+//                }
+//            }
+//            if (!serviceClassList) {
+//                serviceClassList = [NSMutableArray array];
+//                [_unRegisteredServiceClassDict setObject:serviceClassList forKey:key];
+//            }
+//            if (![serviceClassList containsObject:class]) {
+//                [serviceClassList addObject:class];
+//            }
+//            dispatch_semaphore_signal(semaphore);
+//        }
+//    });
+//    CFAbsoluteTime endTime = (CFAbsoluteTimeGetCurrent() - startTime);
+//    NSLog(@"方法耗时: %f ms", endTime * 1000.0);
+//    return _unRegisteredServiceClassDict;
+//}
 
 #pragma mark - utility methods
 

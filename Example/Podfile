@@ -1,0 +1,17 @@
+use_modular_headers!
+
+platform :ios, '10.0'
+
+target 'PROJECT_Example' do
+  pod 'LLZShareLib', :path => '../'
+  pod 'LLZShareQQ', :path => '../'
+  pod 'LLZShareWX', :path => '../'
+  pod 'LLZShareDY', :path => '../'
+  pod 'LLZShareKS', :path => '../'
+  pod 'LLZShareService', :path => '../'
+
+  pod 'WechatOpenSDK', '1.8.7.1', :inhibit_warnings => true
+  pod 'TencentOpenAPI', '1.2.0', :inhibit_warnings => true
+
+end
+

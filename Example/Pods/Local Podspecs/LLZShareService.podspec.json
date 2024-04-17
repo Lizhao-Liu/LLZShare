@@ -1,0 +1,22 @@
+{
+  "name": "LLZShareService",
+  "version": "0.1.0",
+  "summary": "LLZShareService.",
+  "description": "满帮分享service",
+  "homepage": "https://github.com/Lizhao-Liu/LLZShare",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Lizhao": "lizhaoliu97@gmail.com"
+  },
+  "source": {
+    "git": "git@github.com:Lizhao-Liu/LLZShare.git",
+    "tag": "LLZShareService_0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "LLZShareService/Classes/**/*"
+}

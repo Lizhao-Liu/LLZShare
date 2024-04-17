@@ -22,9 +22,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
   s.requires_arc = true
-
   s.source_files = 'LLZShareWX/Classes/**/*'
-  s.dependency 'LLZShareLib', '~> 0.3'
-  s.dependency 'LLZShareService','~> 0.2'
-  s.dependency 'WechatOpenSDK', '~> 1.8.7'
+  s.dependency 'LLZShareLib', '~> 0.1'
+  s.dependency 'LLZShareService','~> 0.1'
+
 end

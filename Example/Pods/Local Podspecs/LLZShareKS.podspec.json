@@ -1,0 +1,29 @@
+{
+  "name": "LLZShareKS",
+  "version": "0.1.0",
+  "summary": "第三方分享平台快手",
+  "description": "第三方分享平台快手组件，提供快手分享渠道处理类，快手sdk等",
+  "homepage": "https://github.com/Lizhao-Liu/LLZShare",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Lizhao": "lizhaoliu97@gmail.com"
+  },
+  "source": {
+    "git": "git@github.com:Lizhao-Liu/LLZShare.git",
+    "tag": "LLZShareKS_0.1.0"
+  },
+  "vendored_libraries": "LLZShareKS/Classes/SocialPlatform/libKwaiSDK/ios/libKwaiSDK.a",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "requires_arc": true,
+  "source_files": "LLZShareKS/Classes/**/*",
+  "dependencies": {
+    "LLZShareLib": [
+      "~> 0.1"
+    ]
+  }
+}

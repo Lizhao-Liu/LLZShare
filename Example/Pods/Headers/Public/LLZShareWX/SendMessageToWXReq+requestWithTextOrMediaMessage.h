@@ -1,0 +1,1 @@
+../../../../../LLZShareWX/Classes/SDKExport/WXHelper/SendMessageToWXReq+requestWithTextOrMediaMessage.h

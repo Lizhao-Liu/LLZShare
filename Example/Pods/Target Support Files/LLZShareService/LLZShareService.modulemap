@@ -1,0 +1,6 @@
+module LLZShareService {
+  umbrella header "LLZShareService-umbrella.h"
+
+  export *
+  module * { export * }
+}

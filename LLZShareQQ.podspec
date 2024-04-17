@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'LLZShareQQ/Classes/**/*'
   s.dependency 'TencentOpenAPI', '~> 1.2'
-  s.dependency 'LLZShareLib', '~> 0.3'
+  s.dependency 'LLZShareLib', '~> 0.1'
 end

@@ -1,0 +1,6 @@
+module LLZShareWX {
+  umbrella header "LLZShareWX-umbrella.h"
+
+  export *
+  module * { export * }
+}

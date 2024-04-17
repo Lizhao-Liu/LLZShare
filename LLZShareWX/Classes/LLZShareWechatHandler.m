@@ -8,7 +8,6 @@
 #import <WechatOpenSDK/WXApi.h>
 #import "LLZShareWechatHandler.h"
 #import "WXApiRequestHandler.h"
-#import <WechatOpenSDK/WXApi.h>
 @import LLZShareLib;
 
 @interface WXLogger : NSObject <WXApiLogDelegate>

@@ -1,0 +1,31 @@
+{
+  "name": "LLZShareQQ",
+  "version": "0.1.0",
+  "summary": "第三方分享平台QQ",
+  "description": "第三方分享平台QQ组件，提供QQ分享渠道处理类，QQsdk等",
+  "homepage": "https://github.com/Lizhao-Liu/LLZShare",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Lizhao": "lizhaoliu97@gmail.com"
+  },
+  "source": {
+    "git": "git@github.com:Lizhao-Liu/LLZShare.git",
+    "tag": "LLZShareQQ_0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "requires_arc": true,
+  "source_files": "LLZShareQQ/Classes/**/*",
+  "dependencies": {
+    "TencentOpenAPI": [
+      "~> 1.2"
+    ],
+    "LLZShareLib": [
+      "~> 0.1"
+    ]
+  }
+}

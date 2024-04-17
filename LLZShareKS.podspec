@@ -25,5 +25,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'LLZShareKS/Classes/**/*'
-  s.dependency 'LLZShareLib', '~> 0.3'
+  s.dependency 'LLZShareLib', '~> 0.1'
 end

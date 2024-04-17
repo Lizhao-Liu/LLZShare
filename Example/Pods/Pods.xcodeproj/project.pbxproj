@@ -1,0 +1,2786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = WechatOpenSDK;
+		};
+		CA97C3765B8E3DCC8E1F8E386E78EC22 /* TencentOpenAPI */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EA901136154EFC95EF456B34DFABA43E /* Build configuration list for PBXAggregateTarget "TencentOpenAPI" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = TencentOpenAPI;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		006566302BC875E76C2FC2070FCBBFDF /* SendMessageToWXReq+requestWithTextOrMediaMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 74731E75EEC5B055B9A7FD58AB765B7A /* SendMessageToWXReq+requestWithTextOrMediaMessage.m */; };
+		05A759670D6524B5EDE8DF0F1271E276 /* icon_download@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C51F1EE0BB119A1B461513F166422E /* icon_download@2x.png */; };
+		06BE291360FBDF1C0DC10A8E7DF97712 /* LLZShareUIConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F3C884A462FE07E35539B7D85157C615 /* LLZShareUIConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		07ABE9BF8781884A15D71275EFE95039 /* icon_douyin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F595B45699C5CBDAD7E324BF0EF1073 /* icon_douyin@3x.png */; };
+		0895BAF00BB3050FCFCF1F0458D235E3 /* LLZShareDYHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 34288F408A864975F282C7C06890A743 /* LLZShareDYHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0967F951D5DCC9A87366573479CCD4D7 /* SendMessageToWXReq+requestWithTextOrMediaMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B21DBF9AB1AB294D6B05A13CFE0F0E /* SendMessageToWXReq+requestWithTextOrMediaMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0A089E94205D7A2FEC95EC5A20E1075B /* LLZSharePhoneHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE9AE74720B37D7B3CB6B1D3D20884B /* LLZSharePhoneHandler.m */; };
+		0B1C9273FC7CACDC8678E0171220423D /* LLZShareMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D086ACCA315D3189103556FB77E1C6 /* LLZShareMenuView.m */; };
+		0B3059E0F7B4BB758813A2084B2AF909 /* LLZShareObject+LLZShareLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 85256C70B85C1846833289CC7CBA414A /* LLZShareObject+LLZShareLib.m */; };
+		0D0E7887882EF877C01D5B030A2F5022 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F52AAB4521942374642630AC4DDD20 /* NSObject+YYModel.m */; };
+		0E7FBC1F4577A1A27B6E8F6AD366B0B9 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1453F8F36546707C48F9326C2D736D /* MASLayoutConstraint.m */; };
+		0EDE6CD421EAB9685867CF0D6D6E5051 /* LLZShareKS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0642E4348D11FCAF99D25AEB1B830E56 /* LLZShareKS-dummy.m */; };
+		0F9415E516E9BDC13C5BCE09C2A2CDB9 /* LLZShareEventTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2085373E6D93EEAA9EE289845F996370 /* LLZShareEventTracker.m */; };
+		0F9DAB8F03CF3DD76B5981EAE1966342 /* LLZShareService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 644D0E9CAE624F032485D7D3BE07D637 /* LLZShareService-dummy.m */; };
+		12742CBC7C3F9CA64495AB46A50488EA /* icon_phone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E20E77304513BCE21C4341EB0C4ACB68 /* icon_phone@3x.png */; };
+		1718550C18CC20969130F278FA177EC6 /* WXMediaMessage+messageConstruct.m in Sources */ = {isa = PBXBuildFile; fileRef = 610B034EC1EC7265A241754FC15732EF /* WXMediaMessage+messageConstruct.m */; };
+		17612A6652ED4A5D813D0126445899EB /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F980D7DE876AD2456DF5444CEC84DA0F /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		184FBABE68CDB775D7595B3353FE1331 /* WXMediaMessage+messageConstruct.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED412C234F91141DF92B2B1F9FDAF3D /* WXMediaMessage+messageConstruct.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		18F93ABD9E1CE14E7017D5888E04ACFD /* LLZShareUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = DA5C247389B18061E5905432652CBA8E /* LLZShareUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		19EC7407500031A9353CC45EEA669982 /* icon_download@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CABB69A29DC7D7396F3FE6BBBF9CA10 /* icon_download@3x.png */; };
+		1B81A3770636F059B4CE3557FF7E61F2 /* icon_douyin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82AD523AB3E35B5FA9FC7025AF0EF1B7 /* icon_douyin@2x.png */; };
+		1CF5F60D06C0D120B27C24E7F093E62A /* KwaiSDK.podspec.json in Sources */ = {isa = PBXBuildFile; fileRef = ED413E664EDF063D3DA954C9C6503A3B /* KwaiSDK.podspec.json */; };
+		1D669CBEBE3B6F2B81ECC3E839E224D3 /* KSApi.h in Headers */ = {isa = PBXBuildFile; fileRef = B09C55AD48A36ADB942CF4B4E540AE57 /* KSApi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		25D054E76C3ABA4EB56A93D2A712C9C3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD97AE37547BD099EE1E863780D3983 /* NSArray+MASAdditions.m */; };
+		2717F60284A2AA71C88D047DDDE6827E /* LLZShareWX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E5C24E1A838849B51527D9A28D19F3C /* LLZShareWX-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		277069AF6A705CEFF55809A9095BE158 /* WXApiRequestSender.h in Headers */ = {isa = PBXBuildFile; fileRef = AACC7F2D8457521B7EFC1D04A81907F0 /* WXApiRequestSender.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		285EF7BEEEF0E99AA36E960FE6DFF20D /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 592C5D0112E292FCDD2E1B147CE44124 /* MASCompositeConstraint.m */; };
+		2891E8AB9411B39634443990FAE47821 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0A52F6AFD3E07FC2B56E0E262E2C73C /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		291D9A39E3E7F260654AE8D92D387DF0 /* LLZShareKSHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = ACB87A5982D3F342642F06E1C96E8D7F /* LLZShareKSHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2E1BB3567BEE82C1E0B01F50820CCFA0 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 686ADAD20EE9AC5FB6EA1E397510F7DE /* View+MASAdditions.m */; };
+		3189A29CE7C1F2503E9CEC8A3262E2CC /* LLZShareMenuItem.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC1C3A31505CFF48A5DF435C98D6456 /* LLZShareMenuItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		333057A1644E728A18F57FEA0C971326 /* LLZShareQQ-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DA5FD5918E772D5C235E11CD7EA028 /* LLZShareQQ-dummy.m */; };
+		338B31D06893963A48243E988B36496C /* UIViewController+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 58FD795345242427E8B34E890AE41376 /* UIViewController+Utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3395DF25F0C5C4208FD405EBCE053BDF /* LLZShareWX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC3066917353EA0AD6AF565E3949421 /* LLZShareWX-dummy.m */; };
+		34D9813FB2AD28A5FC9E5DBDD0B24229 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C47DE4FB148CDB4E719F8CC8B97E5501 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		3AD18C0753190B998D11BFE9E33B1A04 /* LLZShareSaveImageHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = E6F510F5A13AD276CF8EB45712B93582 /* LLZShareSaveImageHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3F4F6FE3394DEFAA40F3F854EB7F1CE5 /* LLZShareObject.h in Headers */ = {isa = PBXBuildFile; fileRef = AF86D162EF25152CB1810F6A8F5928F2 /* LLZShareObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		402F0B02AE2B1900FB97F742C57E326F /* LLZShareQQHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 943C011C0331EC4AA88E011C91CFA8C5 /* LLZShareQQHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4164F8B18B08E11F81746C9B8D9EA3EF /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3738B302FC198E0F58AC4F03851E769D /* Masonry-dummy.m */; };
+		4269438A16E3D7495A14E1C429554F0C /* icon_share_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41220A9E9E3E074D5954B6F557D5D5C0 /* icon_share_close@2x.png */; };
+		42A19D19E317FED23512A4CC00BA840F /* LLZShareObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 356AFEC71B771A7642D660E0D62CBE9F /* LLZShareObject.m */; };
+		4563B57EFFB0414AAD9E7B2D984A480C /* WXApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E81E6EF2A59CF5A3788AE1DC49DBF93 /* WXApiManager.m */; };
+		456FD496E2ED33423B10D0F157BDCAA8 /* LLZShareDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890746FDC9D7416E1639A18C78DB4D8 /* LLZShareDefine.m */; };
+		477160F4428714D3DCAE08BA617F1F30 /* LLZShareKS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC71B3DE936A451D81F1A9FE9CC442A5 /* LLZShareKS-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		477BF10553D03AC4F8FCD1F9E1F55F76 /* icon_share_custom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 711B9D1EBC400F7B945A10CB5959A5BC /* icon_share_custom@3x.png */; };
+		48E93B1687BA9BB06977E75471ABC66F /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A312719760BA6B30F7B3C0627E755B /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		49ACDF9F4823E7ACEDE25A5E8FD33F4A /* GetMessageFromWXResp+responseWithTextOrMediaMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCA79E598017D44CDD14044921392BC /* GetMessageFromWXResp+responseWithTextOrMediaMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B3F497B0C7B07683C0F8008A56D981F /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6D7807CF84604159362487ADB8F8ED /* YYClassInfo.m */; };
+		4D7502BA7D4251E84298E7797E79876A /* LLZShareService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFA23A50C414FBF69097D7676440021F /* LLZShareService-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4FAE82E37CF07B9D6612A449B7F1F890 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 73917F9F36FC553F71BD2E1D2422D5A9 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		506DF5B80F6701D5BBA915E3A90FD39B /* WXApiRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A31339E188F4A1B096E7D67E9273F8B /* WXApiRequestHandler.m */; };
+		513C8A2B5ACA46B94DFBEDEC7D7660D1 /* LLZGPopupMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD556915A0F445D627885D7CCF80A7F /* LLZGPopupMaskView.m */; };
+		51796F5B68D04DD86A01AAFE73716072 /* LLZShareSaveVideoHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = AFA645FAEEAD262F3ED11E44C03AD1C1 /* LLZShareSaveVideoHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		51E72A2E725F3E31EDFFF623CC3EB2FD /* LLZShareEventTracker+LLZShareMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD38275439C3932A4ACF53EC99D1BCF /* LLZShareEventTracker+LLZShareMenu.m */; };
+		55BF7120A17C304A70FF4F6E4AAF49D5 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0485263CA6FFACD15734329ADFE4F080 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5982ED325D352AAC381F5ED8C036A79E /* LLZShareManager+ShareUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 640DAAE33B17271B15F5B36804D605A2 /* LLZShareManager+ShareUI.m */; };
+		5A0AE1E80896002073D1067E256595ED /* LLZShareChannelHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAB2AA53E12526038C2F77351DCA7DB /* LLZShareChannelHandler.m */; };
+		5AE9877F6B290AC72CB16892AB79E32D /* YYModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F629D3F6663399C235FDCCAA93DCEB3E /* YYModel-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5B0B15987BF989D6DE7EFF2F1ADA9FAB /* LLZShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5612F134E95BCEB964569A7179C7F2D9 /* LLZShareManager.m */; };
+		5C50E7519C7EA7AC743A49AC8C12DAD4 /* LLZShareWechatHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 616AFAFF164F136935AF0396E609CF89 /* LLZShareWechatHandler.m */; };
+		5CD10303A4879E2006ADFA93815597D0 /* LLZService.h in Headers */ = {isa = PBXBuildFile; fileRef = 94D055A027C2B2FF7E258AE5C83A76EA /* LLZService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5F8CDDDDAE5ACF57379338E917958217 /* Constant.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD653F73BC7F9A562E7DE2A67BA5F94 /* Constant.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		61D390F75D29862E990FA3BDE88B3368 /* UIViewController+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D18BAA6BAEA8E3C543BB56CA6E8594 /* UIViewController+Utils.m */; };
+		624D516A5254312DAAD961EC07A8C3CF /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E019089F90020E34EBB96FE85531E96C /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66B2F39B2F815D6E058450A1CA7FEB05 /* LLZShareEventTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C8E68383E10FCE7D46ED7A248073DE /* LLZShareEventTracker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68D8E7DBC44179768C1F16D4C4BF62D6 /* LLZShareContextModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B3646925EF15EC1A2EC98F90F88205B /* LLZShareContextModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6939B06556B42625E98C9505466D77DD /* DouyinOpenSDKObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC6F972997FDC19BA5520ACA51B2B8B /* DouyinOpenSDKObjects.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6ABAA2A92033F4D55683EC6460158954 /* LLZShareLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2445811C487FF1114228CD99DF3DDCC /* LLZShareLib-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B7EC97DE08E086AE937109B7F8A61EA /* LLZShareSaveImageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FA00C9EABC70B92D857CD5F447B284 /* LLZShareSaveImageHandler.m */; };
+		6CD9C915C22F8EC1177CD2C1EAC68C17 /* icon_share_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661A8524FA06454F45AA5AB58B9E0BD8 /* icon_share_close@3x.png */; };
+		6CDD9B486858111C3BCE6AA6549446DF /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F6272EE16C844FE8B93B7230E3B7D979 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6D1CA9F7883E30878C9065621D0CC235 /* LLZShareSaveVideoHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F7673FF6C5D361B72D2D26F8EBBA0E /* LLZShareSaveVideoHandler.m */; };
+		6F5D2078F3692428E2D92EA93AD0D3B4 /* LLZShareUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A11068CAE938F54BEF1E3515F3B20 /* LLZShareUtils.m */; };
+		6F9A5378E611BD04C003E9BE47FD2F8D /* LLZShareQQ-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2ED095FE3CE83A9CD0325E3AD058E0 /* LLZShareQQ-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		72BF23928AADD0D79FD2C4956F1F37B5 /* LLZShareManager+ShareUI.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AFD690F6FA822E66F78984B5C175FD /* LLZShareManager+ShareUI.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		73A6BD15C43EBEB3676ABDC0E4B70172 /* pyq@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 229A7D82164E3B83F621846FEE11FC95 /* pyq@3x.png */; };
+		73C812A92B953DAD70CBF94CD57BDDFC /* Root.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A56CD6C24EE42CF9DC0772DF1768261 /* Root.plist */; };
+		743F327F72AFF339B62B20110D747D64 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BADB333CC70BB63CA4C9EC3EF14B9817 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7478B918206B2141C19941F8C3005E46 /* LLZGPopupMaskView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D68FE5636B35EBD2DEC4ADAE2EBC83F /* LLZGPopupMaskView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		79886D9C8D137A8D5DB0EFFF90553099 /* LLZGPopupMaskViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C08EE2DF03CABA03B8C56579646F1BF /* LLZGPopupMaskViewDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D6258FAEB11CA573C7B15D617EB03F3 /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7A6E105579C5928055F62F953741DD /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m */; };
+		7D818C14D979930D45E07AE204180A60 /* WXApiManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 89D0D843580B8645C68A1AA05D7257E8 /* WXApiManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		80516BF94D2F0D26F5417BB005F193FB /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7505F9C97E1A70A34135DD2ED07367 /* ViewController+MASAdditions.m */; };
+		805E2468585B73FB4052417B480C30A6 /* wx@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E7324A939B4045153821BE782B5AD7 /* wx@2x.png */; };
+		81662610C7601BD00B83F2810859E2F6 /* LLZShareMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED9FA13BD4C3AC0058401029A365B8E2 /* LLZShareMenuView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		845AEF3C478FF103CBDFD12CF543BC7C /* LLZServiceCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 24EEF576B9CD5990E778942BAE8A157B /* LLZServiceCenter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		86F7CE5DBBA30A3EE0AF13FDC87D140C /* icon_kuaishou@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0174432E235F2754272456836C3AC38E /* icon_kuaishou@2x.png */; };
+		888E465B8D4C3BE6D2A33D4DC165B563 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD565F4EB687DCCD77D1608FF49A0FA /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89614AB7F714930729499A65B0CE2D61 /* LLZShareUIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C9D0CD7589463A5AC7963F7A4FE365 /* LLZShareUIConfig.m */; };
+		89FB987E1C6F678EBD172951D7A0BD02 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA69A2BC12DDDC1645E1123B4F05D77 /* YYClassInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8DFBCA8152D12BFAB1D2CD7D8481A181 /* LLZShareChannelObjectWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DA73C9E533C165FA00E05877E450000 /* LLZShareChannelObjectWrapper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E4E9FE73FBFEB19168F8FCC359844D4 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FB01872A31E3576502A14854A8977DEF /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F0113D5B3FCA046CA7692E95040D92B /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B99C1E50D432EC55C70A9C894F2276 /* MASConstraintMaker.m */; };
+		9135B82BB28000129D31E3F8B11E0FE2 /* LLZShareSMSHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB1C260B346D0193029D2FAA7BB7A6 /* LLZShareSMSHandler.m */; };
+		928C0FA03E275E4C490FE4E4C6FEEFF8 /* LLZShareDY-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 229A44FBD422B5CBC1C6B9A20A0B69A2 /* LLZShareDY-dummy.m */; };
+		945CF3BED6808C35DD1394790D966968 /* WXApiRequestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = E88E771DA157BF6599D926F0B66683BA /* WXApiRequestHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		981693467B70479417318F8B84CCEF39 /* LLZShareKSHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 86FA4A7CE6556094C027DD82AA1124E7 /* LLZShareKSHandler.m */; };
+		9ADD95B6801D7FB54BA5797F0D067AD5 /* icon_share_qq@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB867FF54CF3D0D056553501F63DD68D /* icon_share_qq@3x.png */; };
+		9B40ABB181F68F84968600CD8E1DF935 /* LLZShareObject+LLZShareLib.h in Headers */ = {isa = PBXBuildFile; fileRef = A26F32B78649A27FD98592A84D439C40 /* LLZShareObject+LLZShareLib.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9D59CA992A8C1BF5C4FAA756B9C93EAC /* LLZContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCAA291539E5507E7A8C77B69F7BEA4 /* LLZContext.m */; };
+		A2500FDEF4496FF1E761814896DBC980 /* LLZShareDY-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E81119E3B094B66AEA2338402E41A44 /* LLZShareDY-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A4D3A453493EB576D981647A34FDB013 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E7D88B216208443D1859CCEEFAA276 /* MASConstraint.m */; };
+		A8074E908ADE3598FDBB19725E965292 /* LLZGPopupMaskConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB60BCC493C9DAC2E262946A77C9AF9 /* LLZGPopupMaskConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A99EBF5F9646C74131A646C78F2E47C4 /* LLZShareChannelObjectWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 501CD0149502831E006D5C17851E92B5 /* LLZShareChannelObjectWrapper.m */; };
+		AA42408B30F3AA27C25DF802D4DB53FC /* WXApiResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E30152A0EA715C8D06E3D1237BAC8C /* WXApiResponseHandler.m */; };
+		ACE499A986037F6351B66D6B8AE74DA2 /* LLZShareContextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA93976310E2D30460E9FD3A95E8A228 /* LLZShareContextModel.m */; };
+		AE330909BC20E8910F2A62D077A6DDF7 /* WXApiRequestSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AD12011D187D5337FF2D7898D8FA7A /* WXApiRequestSender.m */; };
+		AE6EA34F8CBF64CEE101B2E25B0AA7B6 /* Pods-PROJECT_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B149CF937158AC0B4B045436CA5AAEB /* Pods-PROJECT_Example-dummy.m */; };
+		B08746FD69C5E31824DC9B93DF876F14 /* source.txt in Sources */ = {isa = PBXBuildFile; fileRef = 4130DDE0F6F8B5FE9D751BF16F5A755F /* source.txt */; };
+		B16168C613F573C34A048FAF797013AC /* NSString+LLZShareLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C84AD06781996A2CA2A78FB48F998A8 /* NSString+LLZShareLib.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B23FCA35745A1481747282A8F4A84E51 /* LLZContext.h in Headers */ = {isa = PBXBuildFile; fileRef = EA83B93D75399F4204DDE3A865A5DBED /* LLZContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B6D7A5FF5FA3A4BFC19555D96FD7D702 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F5E03D6E71E114265C4A625D169E847 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7606B4B60363507A3BA9094ED3E7D07 /* LLZSharePhoneHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E273E81995BFE258701A3B2A4936FF3 /* LLZSharePhoneHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B861224573A5BBB806E54447685406E6 /* DouyinOpenSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6755E8F2B46DED459593EAB936A3E2 /* DouyinOpenSDK-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B98FA820ED6C633C62D60B0E567A5078 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 94621D17321B4DE99512856D9F04F8C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BF0F32C606F81A1F1453FC60E154F478 /* LLZShareManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3AB9215A81F8C35CED997E802E8FDC /* LLZShareManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1B4EA21338262B9E09D57EDC87BF7A1 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B56B9DEF62DCA5F1F3C9BF292A8464C /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C2AE56959D15EB65715B44CC717319CA /* icon_kuaishou@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E81F85F5D37992F0F79E5CC1668CAADB /* icon_kuaishou@3x.png */; };
+		C2E33548066D42574D9E7FF9C66824A6 /* icon_share_qzone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90AAFE3999CA2BD04D6104C313E2DE2B /* icon_share_qzone@2x.png */; };
+		C34A26A8B1281B254A169468B29462FB /* LLZService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D16B7195053D5D17CDA9E2434F1CA29 /* LLZService.m */; };
+		C49EABF976D6D8D98FC3EBA67B9B5855 /* LLZServiceCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D537009BD98915E543796A340850A91 /* LLZServiceCenter.m */; };
+		C512DD3F89118F93015E5911641E0208 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 95601403FEB0A3706159083849E83E27 /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C72F564D62065D9C1569ABFC8BCE0EE7 /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 21983EF0217EA4D0524E2056C7CDBF7C /* YYModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C8E6ECD4A4EB28889E0C9A4CA3FBC59D /* icon_share_qzone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEC9FD09CE9ED7A7CEC917338C662928 /* icon_share_qzone@3x.png */; };
+		CAF2076B128C26459A833888BF4D5DD2 /* wx@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 170283C0EE878A9FBAD152C8C7239304 /* wx@3x.png */; };
+		CB2076D2A89BEC04F398EF77370B25B7 /* LLZShareMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D516EF4E997A1C923DAAC4A5215D1 /* LLZShareMenuItem.m */; };
+		CCAEA4C704E784CF6700972EDFF8AC36 /* icon_share_qq@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BE3C994F0807FFCCD33F575BAE34682 /* icon_share_qq@2x.png */; };
+		D0517AF330F19D597F19209145AB9BE4 /* LLZShareWechatHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = AC147B43369FCC92551C2F35F5A89711 /* LLZShareWechatHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D2D15729181601F866AAC858C9F8BCD7 /* LLZShareChannelManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 610DE774029C0C984ACE759A6AF57DA4 /* LLZShareChannelManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D3905BD49B414D723FF29318E1927987 /* saveimg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0244CDE7E6982FB245AF901DD03692BA /* saveimg@3x.png */; };
+		D4836BE79790258CAD62F8A437138087 /* DouyinOpenSDKAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 403097C4790989F0F9C2F57D9BE92368 /* DouyinOpenSDKAuth.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DBE0EDB69F8FD403D3965FB6CAA05D69 /* LLZShareDYHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 713BFE97B4E64D439AE37BE5BD68D48D /* LLZShareDYHandler.m */; };
+		DC0C2FAF52A5CE7BA26C40376E15A286 /* LLZShareDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F6022CC7FF998D34C534F7B17F1D4E4 /* LLZShareDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DC9F4A2B44049A299CB551BB6D2FA835 /* DouyinOpenSDKApplicationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 423DE39D2856F19B6B02B56EC3470A64 /* DouyinOpenSDKApplicationDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD2F5D71534E67A1E1DB2CC0F8625257 /* LLZShareSMSHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BD6FCD74915B0E455DF0AEC7D2B0C24 /* LLZShareSMSHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD40BFEBB0EE17CC9ACE0A5445196C1A /* LLZShareQQHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B62A2E7E0043EDB3F8698252F49E0CB /* LLZShareQQHandler.m */; };
+		DDB6C0DEB77FB830854CEA587975C95B /* WXApiResponseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 71ADBDE3B8B5EBE52A0163463C059142 /* WXApiResponseHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DDF48D9438B0A00A63667D5056D26BBE /* LLZShareMenuManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BD173689717248EFDEEB8322DEF6B0 /* LLZShareMenuManager.m */; };
+		DE67002AAF782A69C2A1B90D94A05A0A /* saveimg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B757E8B5E10B7477E11393520F6B6E1 /* saveimg@2x.png */; };
+		E29686380CE1C6ABAB3FBACD0904A92A /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 17828C8884E3961A96F34C7A95808B82 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E317C27449E2D018FF23135953F0DE4D /* dx@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB065E3E84DD6653A28CE782CA3C0063 /* dx@3x.png */; };
+		E366E3630F36D3C89EF17D4A5FBBFE4C /* LLZShareMenuManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8361D8FAA7E553267393C5DC1AADAA03 /* LLZShareMenuManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E62CA758AB890387C7C800B1718A4FC2 /* KSApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 110C6D60AAA4D90D874A16B77F45867C /* KSApiObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E75C696FE493F40AA1C606DD01A6466A /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EEB5E669607DF3DBF892093D73BA90 /* MASViewConstraint.m */; };
+		E8557838644A197AC972EB1F8E6B888A /* LLZShareLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A9FFDCCBADBD1CCB91CA18BBAC0C96 /* LLZShareLib-dummy.m */; };
+		E9A2CCA3379CBF8887A656EEAFB4D7D1 /* icon_phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA0FA0959CB6E5D08E5EF36D55A5F192 /* icon_phone@2x.png */; };
+		EE2EA4BF811DA272D3E887189BCD405E /* NSString+LLZShareLib.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AC665D85DC5F57A173CBC81A94C411 /* NSString+LLZShareLib.m */; };
+		EF6E23F0F4379F8BBA61F935F6CD9106 /* icon_share_custom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46400EB93417C54AE60BF9723B121553 /* icon_share_custom@2x.png */; };
+		F2A25CB2D17AFD99BBA95308ACAE0451 /* LLZGPopupMaskConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B0BCD948687CF664D5FE29445DBB1F /* LLZGPopupMaskConfig.m */; };
+		F3D41B20A20843403C099754AEF06951 /* LLZShareChannelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B64322892530ABE06BC461FE8C4CA5 /* LLZShareChannelManager.m */; };
+		F3F0AE8CDCCE730D739A5FBACEC8C9D2 /* DouyinOpenSDKShare.h in Headers */ = {isa = PBXBuildFile; fileRef = E4BCC1D7604423CC1A15636A09AA3960 /* DouyinOpenSDKShare.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F51A0918CC6D6F9882889B7991BC0D51 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = FC347587B5D508203D7139ED69A173FD /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F64D8DD19AE85BB42C3F37FFC792ED9F /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AEB25D740264CEBC71142AC4BB5BEAE /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F6D0A73B94105AD24EA10AFE9AC91EB1 /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 947EC0A4E7FB130F7422000662DB2648 /* YYModel-dummy.m */; };
+		FA27B3906358F5AF5730E1FAAFD64F08 /* dx@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 894622DEF5CEDA61423341B159D9C27C /* dx@2x.png */; };
+		FA5D507D0208D2742FB803C3193F983B /* pyq@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B20B721277AC743B5D17A1FF476AF4E /* pyq@2x.png */; };
+		FB03124AA24F96004D2968933F234A89 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A03C0C1C5474C3B2DAFCD0C9A27146 /* MASViewAttribute.m */; };
+		FD98804FF4B69BBA2AA08FC8B1161892 /* libKwaiSDK.a in Sources */ = {isa = PBXBuildFile; fileRef = 715CC197A5B8C9CEF4022F5376C5E149 /* libKwaiSDK.a */; };
+		FEB8D8ED892024B99014C265D7CFAAF3 /* LLZShareChannelHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AFB81C37BD07880C574DFB0D515CFAF /* LLZShareChannelHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FF2CDECE7E1D81EE094C95328CEC9EFA /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DE74377A0C2C85BB25F2C94E0EE705B /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FFC897318D45D90BA6EB001813D815B9 /* LLZShareEventTracker+LLZShareMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D653FE61EC352E9DC36285DD89380C0 /* LLZShareEventTracker+LLZShareMenu.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02A98D5EFB67BBE55E00B8E1D2297E18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4784AFF215B62EC21DB6AA6EF11FFAD0;
+			remoteInfo = "LLZShareLib-ShareUI";
+		};
+		0CEC0BF52715DC258B16BE304F2918B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B44807A12996D487A4A591A481D6A0;
+			remoteInfo = YYModel;
+		};
+		0CF44AD531991B865BAC991779EB4269 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AFE43F775C2375BF389B2276622A566;
+			remoteInfo = LLZShareService;
+		};
+		1351EB0DFD46FCE375FF1EF59E479DD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 535042EBB5CD5644DBC3806D765ECD46;
+			remoteInfo = LLZShareKS;
+		};
+		4409E029F9756D371EAC424B094AA863 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B44807A12996D487A4A591A481D6A0;
+			remoteInfo = YYModel;
+		};
+		56548F784B16D705FD2850471B7E4C66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AFE43F775C2375BF389B2276622A566;
+			remoteInfo = LLZShareService;
+		};
+		6CC8767D43CAB239BA4738F24008D4C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AFE43F775C2375BF389B2276622A566;
+			remoteInfo = LLZShareService;
+		};
+		752370CA77BADDEBFBB1A1837BE21E07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A642EA1BD0264AC77545D41839F612BA;
+			remoteInfo = LLZShareLib;
+		};
+		8490CFB2201433AB36DDC9C2AF345ABA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA97C3765B8E3DCC8E1F8E386E78EC22;
+			remoteInfo = TencentOpenAPI;
+		};
+		86BA8FA63FCCBB7E6FF87807040ACF2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A642EA1BD0264AC77545D41839F612BA;
+			remoteInfo = LLZShareLib;
+		};
+		86DAB36FC820DD776EBC77E0918FE584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		8E429D0597318D3F8E273A92FA7C35CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA97C3765B8E3DCC8E1F8E386E78EC22;
+			remoteInfo = TencentOpenAPI;
+		};
+		981B5786BE508ED4A0F6EBD02C439964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 971ED2CBFE8DF29C935CB3888BA561D2;
+			remoteInfo = LLZShareDY;
+		};
+		A12693C3A8DC0B1B4ABADA24D1293C8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94454F21BBA506847B32ED2CEC3FF03A;
+			remoteInfo = LLZShareQQ;
+		};
+		B134EE53B73F668C1D7C46DD07EE4750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		B895628EFC0B9C0DCD9805BB03313364 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		CB00027F4CA5D4258D02B03A7165D2C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A642EA1BD0264AC77545D41839F612BA;
+			remoteInfo = LLZShareLib;
+		};
+		CC9D75704B0BF59F7CE91DD8FAD5CE2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A719819E3D2862D64A55F6710700BF44;
+			remoteInfo = LLZShareWX;
+		};
+		E431784565FE76E464B931CCB170982F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A642EA1BD0264AC77545D41839F612BA;
+			remoteInfo = LLZShareLib;
+		};
+		E76863D7090C63F6AF9004C0ACEECD42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A642EA1BD0264AC77545D41839F612BA;
+			remoteInfo = LLZShareLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0174432E235F2754272456836C3AC38E /* icon_kuaishou@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_kuaishou@2x.png"; path = "LLZShareLib/Assets/ShareUI/icon_kuaishou@2x.png"; sourceTree = "<group>"; };
+		0244CDE7E6982FB245AF901DD03692BA /* saveimg@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "saveimg@3x.png"; path = "LLZShareLib/Assets/ShareUI/saveimg@3x.png"; sourceTree = "<group>"; };
+		026CE90851D24DCB06DC73E1CB3A168E /* LLZShareService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLZShareService-prefix.pch"; sourceTree = "<group>"; };
+		0485263CA6FFACD15734329ADFE4F080 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		0642E4348D11FCAF99D25AEB1B830E56 /* LLZShareKS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LLZShareKS-dummy.m"; sourceTree = "<group>"; };
+		06FA00C9EABC70B92D857CD5F447B284 /* LLZShareSaveImageHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LLZShareSaveImageHandler.m; sourceTree = "<group>"; };
+		09352F06A9E1526D41DC3C8D43AE5282 /* YYModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.debug.xcconfig; sourceTree = "<group>"; };
+		0AFED88185445A43C91D298C12546FF2 /* LLZShareDY-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLZShareDY-prefix.pch"; sourceTree = "<group>"; };
+		0B0A11068CAE938F54BEF1E3515F3B20 /* LLZShareUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LLZShareUtils.m; sourceTree = "<group>"; };
+		0B9D64F40F9C15270E63D2E56C806DA5 /* DouyinOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DouyinOpenSDK.framework; path = LLZShareDY/Classes/SocialPlatform/DouyinOpenSDK.framework; sourceTree = "<group>"; };
+		0EA54B4B0C62D9937272275341CFCBFE /* LLZShareDY */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = LLZShareDY; path = libLLZShareDY.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ED412C234F91141DF92B2B1F9FDAF3D /* WXMediaMessage+messageConstruct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXMediaMessage+messageConstruct.h"; sourceTree = "<group>"; };
+		110C6D60AAA4D90D874A16B77F45867C /* KSApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KSApiObject.h; sourceTree = "<group>"; };
+		1277D60213E816ED09A0B6ADBD8F37F0 /* LLZShareWX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LLZShareWX.modulemap; sourceTree = "<group>"; };
+		12C9D0CD7589463A5AC7963F7A4FE365 /* LLZShareUIConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLZShareUIConfig.m; path = LLZShareService/Classes/LLZShareUIConfig.m; sourceTree = "<group>"; };
+		166A0CD62F6498DABB13EDF527E35855 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		16A312719760BA6B30F7B3C0627E755B /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		170283C0EE878A9FBAD152C8C7239304 /* wx@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "wx@3x.png"; path = "LLZShareLib/Assets/ShareUI/wx@3x.png"; sourceTree = "<group>"; };
+		17828C8884E3961A96F34C7A95808B82 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		17B449D490A43581F78C237C815E08C9 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.8.7.1/libWeChatSDK.a; sourceTree = "<group>"; };
+		18B21DBF9AB1AB294D6B05A13CFE0F0E /* SendMessageToWXReq+requestWithTextOrMediaMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SendMessageToWXReq+requestWithTextOrMediaMessage.h"; sourceTree = "<group>"; };
+		1AF7240521DFEB8AC1981D153D0E3EDC /* LLZShareService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLZShareService.debug.xcconfig; sourceTree = "<group>"; };
+		1B3646925EF15EC1A2EC98F90F88205B /* LLZShareContextModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLZShareContextModel.h; path = LLZShareService/Classes/LLZShareContextModel.h; sourceTree = "<group>"; };
+		1B62A2E7E0043EDB3F8698252F49E0CB /* LLZShareQQHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLZShareQQHandler.m; path = LLZShareQQ/Classes/LLZShareQQHandler.m; sourceTree = "<group>"; };
+		1CABB69A29DC7D7396F3FE6BBBF9CA10 /* icon_download@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_download@3x.png"; path = "LLZShareLib/Assets/ShareUI/icon_download@3x.png"; sourceTree = "<group>"; };
+		1D16B7195053D5D17CDA9E2434F1CA29 /* LLZService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LLZService.m; sourceTree = "<group>"; };
+		1E1E72E15EB84D4734D64CCF4D51C561 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.8.7.1/WXApi.h; sourceTree = "<group>"; };
+		1EE633D833AE8D914C297317C082D702 /* LLZShareDY.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LLZShareDY.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = Masonry; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2085373E6D93EEAA9EE289845F996370 /* LLZShareEventTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LLZShareEventTracker.m; sourceTree = "<group>"; };
+		21983EF0217EA4D0524E2056C7CDBF7C /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYModel.h; path = YYModel/YYModel.h; sourceTree = "<group>"; };
+		22321B689D87E7DB68383DEF005FE3EA /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		229A44FBD422B5CBC1C6B9A20A0B69A2 /* LLZShareDY-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LLZShareDY-dummy.m"; sourceTree = "<group>"; };
+		229A7D82164E3B83F621846FEE11FC95 /* pyq@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "pyq@3x.png"; path = "LLZShareLib/Assets/ShareUI/pyq@3x.png"; sourceTree = "<group>"; };
+		2383B3CF214939282ECCBDFCD8007F25 /* LLZShareQQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLZShareQQ.release.xcconfig; sourceTree = "<group>"; };
+		2419362E8D58B2F28A1407EA5C1DC2E7 /* LLZShareLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LLZShareLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		24EEF576B9CD5990E778942BAE8A157B /* LLZServiceCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LLZServiceCenter.h; sourceTree = "<group>"; };
+		25399A57727C7692EC53126E6F8182D3 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		29FC36913E791CAF686BDFEA1B589388 /* LLZShareDY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLZShareDY.release.xcconfig; sourceTree = "<group>"; };
+		2BD97AE37547BD099EE1E863780D3983 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		2BE3C994F0807FFCCD33F575BAE34682 /* icon_share_qq@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_qq@2x.png"; path = "LLZShareLib/Assets/ShareUI/icon_share_qq@2x.png"; sourceTree = "<group>"; };
+		2D653FE61EC352E9DC36285DD89380C0 /* LLZShareEventTracker+LLZShareMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LLZShareEventTracker+LLZShareMenu.h"; path = "LLZShareLib/Classes/ShareUI/LLZShareEventTracker+LLZShareMenu.h"; sourceTree = "<group>"; };
+		30C51F1EE0BB119A1B461513F166422E /* icon_download@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_download@2x.png"; path = "LLZShareLib/Assets/ShareUI/icon_download@2x.png"; sourceTree = "<group>"; };
+		32C8E68383E10FCE7D46ED7A248073DE /* LLZShareEventTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LLZShareEventTracker.h; sourceTree = "<group>"; };
+		34288F408A864975F282C7C06890A743 /* LLZShareDYHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLZShareDYHandler.h; path = LLZShareDY/Classes/LLZShareDYHandler.h; sourceTree = "<group>"; };
+		356AFEC71B771A7642D660E0D62CBE9F /* LLZShareObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLZShareObject.m; path = LLZShareService/Classes/LLZShareObject.m; sourceTree = "<group>"; };
+		3738B302FC198E0F58AC4F03851E769D /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		38E7D88B216208443D1859CCEEFAA276 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		3AC6F972997FDC19BA5520ACA51B2B8B /* DouyinOpenSDKObjects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DouyinOpenSDKObjects.h; sourceTree = "<group>"; };
+		3B56B9DEF62DCA5F1F3C9BF292A8464C /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		3BCD7C246E2E379DDCB7D1202D5AEDDC /* LLZShareService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLZShareService.release.xcconfig; sourceTree = "<group>"; };
+		3D537009BD98915E543796A340850A91 /* LLZServiceCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LLZServiceCenter.m; sourceTree = "<group>"; };
+		3E5C24E1A838849B51527D9A28D19F3C /* LLZShareWX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLZShareWX-umbrella.h"; sourceTree = "<group>"; };
+		3EB60BCC493C9DAC2E262946A77C9AF9 /* LLZGPopupMaskConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLZGPopupMaskConfig.h; path = LLZShareLib/Classes/ShareUI/LLZGPopupMaskConfig.h; sourceTree = "<group>"; };
+		403097C4790989F0F9C2F57D9BE92368 /* DouyinOpenSDKAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DouyinOpenSDKAuth.h; sourceTree = "<group>"; };
+		405C2DFE15EBF130CC4AAE9376215558 /* LLZShareService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LLZShareService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		41220A9E9E3E074D5954B6F557D5D5C0 /* icon_share_close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_close@2x.png"; path = "LLZShareLib/Assets/ShareUI/icon_share_close@2x.png"; sourceTree = "<group>"; };
+		4130DDE0F6F8B5FE9D751BF16F5A755F /* source.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = source.txt; sourceTree = "<group>"; };
+		423DE39D2856F19B6B02B56EC3470A64 /* DouyinOpenSDKApplicationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DouyinOpenSDKApplicationDelegate.h; sourceTree = "<group>"; };
+		42B99C1E50D432EC55C70A9C894F2276 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		4398C45240A3D045FCF3DE5851FD53F5 /* LLZShareQQ */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = LLZShareQQ; path = libLLZShareQQ.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		46400EB93417C54AE60BF9723B121553 /* icon_share_custom@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_custom@2x.png"; path = "LLZShareLib/Assets/ShareUI/icon_share_custom@2x.png"; sourceTree = "<group>"; };
+		46B078D629E453D04A478E98F9C23870 /* LLZShareService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LLZShareService.modulemap; sourceTree = "<group>"; };
+		4A31339E188F4A1B096E7D67E9273F8B /* WXApiRequestHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXApiRequestHandler.m; sourceTree = "<group>"; };
+		4A56CD6C24EE42CF9DC0772DF1768261 /* Root.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Root.plist; path = LLZShareLib/Assets/ShareUI/Root.plist; sourceTree = "<group>"; };
+		4A74EA3A0FF6848606BB6093F360AE36 /* LLZShareKS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLZShareKS.debug.xcconfig; sourceTree = "<group>"; };
+		4AD556915A0F445D627885D7CCF80A7F /* LLZGPopupMaskView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLZGPopupMaskView.m; path = LLZShareLib/Classes/ShareUI/LLZGPopupMaskView.m; sourceTree = "<group>"; };
+		4B20B721277AC743B5D17A1FF476AF4E /* pyq@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "pyq@2x.png"; path = "LLZShareLib/Assets/ShareUI/pyq@2x.png"; sourceTree = "<group>"; };
+		4BD6FCD74915B0E455DF0AEC7D2B0C24 /* LLZShareSMSHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LLZShareSMSHandler.h; sourceTree = "<group>"; };
+		501CD0149502831E006D5C17851E92B5 /* LLZShareChannelObjectWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLZShareChannelObjectWrapper.m; path = LLZShareService/Classes/LLZShareChannelObjectWrapper.m; sourceTree = "<group>"; };
+		52EEB5E669607DF3DBF892093D73BA90 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		5303383B931C0FEBECED48ED3432524B /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		53E30152A0EA715C8D06E3D1237BAC8C /* WXApiResponseHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXApiResponseHandler.m; sourceTree = "<group>"; };
+		55AADF34C7CC7591F6FAC9AD5562C352 /* LLZShareLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LLZShareLib.modulemap; sourceTree = "<group>"; };
+		5612F134E95BCEB964569A7179C7F2D9 /* LLZShareManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LLZShareManager.m; sourceTree = "<group>"; };
+		58FD795345242427E8B34E890AE41376 /* UIViewController+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Utils.h"; sourceTree = "<group>"; };
+		592C5D0112E292FCDD2E1B147CE44124 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		59F98F2B1B3396FED1A4677E9EFBD47B /* LLZShareLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLZShareLib.debug.xcconfig; sourceTree = "<group>"; };
+		5B757E8B5E10B7477E11393520F6B6E1 /* saveimg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "saveimg@2x.png"; path = "LLZShareLib/Assets/ShareUI/saveimg@2x.png"; sourceTree = "<group>"; };
+		5D6D7807CF84604159362487ADB8F8ED /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYModel/YYClassInfo.m; sourceTree = "<group>"; };
+		608DB6DACF18EB5678C06A466B1353DA /* LLZShareKS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLZShareKS-prefix.pch"; sourceTree = "<group>"; };
+		610B034EC1EC7265A241754FC15732EF /* WXMediaMessage+messageConstruct.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXMediaMessage+messageConstruct.m"; sourceTree = "<group>"; };
+		610DE774029C0C984ACE759A6AF57DA4 /* LLZShareChannelManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LLZShareChannelManager.h; sourceTree = "<group>"; };
+		616AFAFF164F136935AF0396E609CF89 /* LLZShareWechatHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLZShareWechatHandler.m; path = LLZShareWX/Classes/LLZShareWechatHandler.m; sourceTree = "<group>"; };
+		62F9B11F531CDDF4C428D9E395EFE29D /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.8.7.1/WechatAuthSDK.h; sourceTree = "<group>"; };
+		634B8D97B5566F25302A449E08F9C5D9 /* ResourceBundle-ShareUI-LLZShareLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ShareUI-LLZShareLib-Info.plist"; sourceTree = "<group>"; };
+		640DAAE33B17271B15F5B36804D605A2 /* LLZShareManager+ShareUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LLZShareManager+ShareUI.m"; path = "LLZShareLib/Classes/ShareUI/LLZShareManager+ShareUI.m"; sourceTree = "<group>"; };
+		644D0E9CAE624F032485D7D3BE07D637 /* LLZShareService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LLZShareService-dummy.m"; sourceTree = "<group>"; };
+		661A8524FA06454F45AA5AB58B9E0BD8 /* icon_share_close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_close@3x.png"; path = "LLZShareLib/Assets/ShareUI/icon_share_close@3x.png"; sourceTree = "<group>"; };
+		66DD75677024EAF7B168B1BD5F4930D2 /* YYModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.release.xcconfig; sourceTree = "<group>"; };
+		686ADAD20EE9AC5FB6EA1E397510F7DE /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		6873CAFA85DF9705EC41C6C898AE4969 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		68AD12011D187D5337FF2D7898D8FA7A /* WXApiRequestSender.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXApiRequestSender.m; sourceTree = "<group>"; };
+		6A5FB9F0079C5121102AB6288A8C3B29 /* LLZShareService */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = LLZShareService; path = libLLZShareService.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AEB1909BB05BA52C54BA4EC3D1B6F6D /* LLZShareWX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLZShareWX.release.xcconfig; sourceTree = "<group>"; };
+		6E81119E3B094B66AEA2338402E41A44 /* LLZShareDY-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLZShareDY-umbrella.h"; sourceTree = "<group>"; };
+		6EAB2AA53E12526038C2F77351DCA7DB /* LLZShareChannelHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LLZShareChannelHandler.m; sourceTree = "<group>"; };
+		6F4D15E18F1159EF35790351DE87AB43 /* LLZShareKS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLZShareKS.release.xcconfig; sourceTree = "<group>"; };
+		6F595B45699C5CBDAD7E324BF0EF1073 /* icon_douyin@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_douyin@3x.png"; path = "LLZShareLib/Assets/ShareUI/icon_douyin@3x.png"; sourceTree = "<group>"; };
+		6F6022CC7FF998D34C534F7B17F1D4E4 /* LLZShareDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLZShareDefine.h; path = LLZShareService/Classes/LLZShareDefine.h; sourceTree = "<group>"; };
+		711B9D1EBC400F7B945A10CB5959A5BC /* icon_share_custom@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_custom@3x.png"; path = "LLZShareLib/Assets/ShareUI/icon_share_custom@3x.png"; sourceTree = "<group>"; };
+		713BFE97B4E64D439AE37BE5BD68D48D /* LLZShareDYHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLZShareDYHandler.m; path = LLZShareDY/Classes/LLZShareDYHandler.m; sourceTree = "<group>"; };
+		715CC197A5B8C9CEF4022F5376C5E149 /* libKwaiSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libKwaiSDK.a; sourceTree = "<group>"; };
+		717141AE60A2A6A63F2BB131C15D1C9F /* LLZShareQQ.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LLZShareQQ.modulemap; sourceTree = "<group>"; };
+		71ADBDE3B8B5EBE52A0163463C059142 /* WXApiResponseHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiResponseHandler.h; sourceTree = "<group>"; };
+		72F7673FF6C5D361B72D2D26F8EBBA0E /* LLZShareSaveVideoHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LLZShareSaveVideoHandler.m; sourceTree = "<group>"; };
+		73917F9F36FC553F71BD2E1D2422D5A9 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		7436849558F71AA92218FA77D363D3E2 /* LLZShareWX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLZShareWX-prefix.pch"; sourceTree = "<group>"; };
+		74731E75EEC5B055B9A7FD58AB765B7A /* SendMessageToWXReq+requestWithTextOrMediaMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SendMessageToWXReq+requestWithTextOrMediaMessage.m"; sourceTree = "<group>"; };
+		76E39B160472AF8CB8C99B8EC37D2120 /* LLZShareLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLZShareLib.release.xcconfig; sourceTree = "<group>"; };
+		7AFB81C37BD07880C574DFB0D515CFAF /* LLZShareChannelHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LLZShareChannelHandler.h; sourceTree = "<group>"; };
+		7B149CF937158AC0B4B045436CA5AAEB /* Pods-PROJECT_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PROJECT_Example-dummy.m"; sourceTree = "<group>"; };
+		7E81E6EF2A59CF5A3788AE1DC49DBF93 /* WXApiManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXApiManager.m; sourceTree = "<group>"; };
+		81A0B29254CD5E168377D91DEE317D40 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.8.7.1/WXApiObject.h; sourceTree = "<group>"; };
+		81B64322892530ABE06BC461FE8C4CA5 /* LLZShareChannelManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LLZShareChannelManager.m; sourceTree = "<group>"; };
+		82AD523AB3E35B5FA9FC7025AF0EF1B7 /* icon_douyin@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_douyin@2x.png"; path = "LLZShareLib/Assets/ShareUI/icon_douyin@2x.png"; sourceTree = "<group>"; };
+		8361D8FAA7E553267393C5DC1AADAA03 /* LLZShareMenuManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLZShareMenuManager.h; path = LLZShareLib/Classes/ShareUI/LLZShareMenuManager.h; sourceTree = "<group>"; };
+		85256C70B85C1846833289CC7CBA414A /* LLZShareObject+LLZShareLib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LLZShareObject+LLZShareLib.m"; sourceTree = "<group>"; };
+		85A9FFDCCBADBD1CCB91CA18BBAC0C96 /* LLZShareLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LLZShareLib-dummy.m"; sourceTree = "<group>"; };
+		8655DB1A0A775064B2EB04921D71A374 /* LLZShareDY.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LLZShareDY.modulemap; sourceTree = "<group>"; };
+		86FA4A7CE6556094C027DD82AA1124E7 /* LLZShareKSHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLZShareKSHandler.m; path = LLZShareKS/Classes/LLZShareKSHandler.m; sourceTree = "<group>"; };
+		8890746FDC9D7416E1639A18C78DB4D8 /* LLZShareDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLZShareDefine.m; path = LLZShareService/Classes/LLZShareDefine.m; sourceTree = "<group>"; };
+		8928BB084553635106975F32F3AB676B /* Pods-PROJECT_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PROJECT_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		894622DEF5CEDA61423341B159D9C27C /* dx@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "dx@2x.png"; path = "LLZShareLib/Assets/ShareUI/dx@2x.png"; sourceTree = "<group>"; };
+		89468217EAA1CB065085DEC8C8EC7BD7 /* LLZShareKS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LLZShareKS.modulemap; sourceTree = "<group>"; };
+		89D0D843580B8645C68A1AA05D7257E8 /* WXApiManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiManager.h; sourceTree = "<group>"; };
+		8A3A221D58B3054151CC6B8200924965 /* LLZShareKS */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = LLZShareKS; path = libLLZShareKS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEB25D740264CEBC71142AC4BB5BEAE /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		8C08EE2DF03CABA03B8C56579646F1BF /* LLZGPopupMaskViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLZGPopupMaskViewDelegate.h; path = LLZShareLib/Classes/ShareUI/LLZGPopupMaskViewDelegate.h; sourceTree = "<group>"; };
+		8C84AD06781996A2CA2A78FB48F998A8 /* NSString+LLZShareLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+LLZShareLib.h"; sourceTree = "<group>"; };
+		8DE74377A0C2C85BB25F2C94E0EE705B /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		8F5E03D6E71E114265C4A625D169E847 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		8FCA79E598017D44CDD14044921392BC /* GetMessageFromWXResp+responseWithTextOrMediaMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GetMessageFromWXResp+responseWithTextOrMediaMessage.h"; sourceTree = "<group>"; };
+		90AAFE3999CA2BD04D6104C313E2DE2B /* icon_share_qzone@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_qzone@2x.png"; path = "LLZShareLib/Assets/ShareUI/icon_share_qzone@2x.png"; sourceTree = "<group>"; };
+		90F52AAB4521942374642630AC4DDD20 /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
+		93D42EF307E204053FADD719411B0BF0 /* YYModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-prefix.pch"; sourceTree = "<group>"; };
+		943C011C0331EC4AA88E011C91CFA8C5 /* LLZShareQQHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLZShareQQHandler.h; path = LLZShareQQ/Classes/LLZShareQQHandler.h; sourceTree = "<group>"; };
+		94621D17321B4DE99512856D9F04F8C9 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		947EC0A4E7FB130F7422000662DB2648 /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
+		94D055A027C2B2FF7E258AE5C83A76EA /* LLZService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LLZService.h; sourceTree = "<group>"; };
+		95601403FEB0A3706159083849E83E27 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		9D2D516EF4E997A1C923DAAC4A5215D1 /* LLZShareMenuItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLZShareMenuItem.m; path = LLZShareLib/Classes/ShareUI/LLZShareMenuItem.m; sourceTree = "<group>"; };
+		9D68FE5636B35EBD2DEC4ADAE2EBC83F /* LLZGPopupMaskView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLZGPopupMaskView.h; path = LLZShareLib/Classes/ShareUI/LLZGPopupMaskView.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DA73C9E533C165FA00E05877E450000 /* LLZShareChannelObjectWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLZShareChannelObjectWrapper.h; path = LLZShareService/Classes/LLZShareChannelObjectWrapper.h; sourceTree = "<group>"; };
+		9DCAA291539E5507E7A8C77B69F7BEA4 /* LLZContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LLZContext.m; sourceTree = "<group>"; };
+		9DD653F73BC7F9A562E7DE2A67BA5F94 /* Constant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		9E273E81995BFE258701A3B2A4936FF3 /* LLZSharePhoneHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LLZSharePhoneHandler.h; sourceTree = "<group>"; };
+		A1B0BCD948687CF664D5FE29445DBB1F /* LLZGPopupMaskConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLZGPopupMaskConfig.m; path = LLZShareLib/Classes/ShareUI/LLZGPopupMaskConfig.m; sourceTree = "<group>"; };
+		A26F32B78649A27FD98592A84D439C40 /* LLZShareObject+LLZShareLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLZShareObject+LLZShareLib.h"; sourceTree = "<group>"; };
+		A585CA875C2AB10528F39CA44D733ABA /* LLZShareQQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLZShareQQ.debug.xcconfig; sourceTree = "<group>"; };
+		AACC7F2D8457521B7EFC1D04A81907F0 /* WXApiRequestSender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiRequestSender.h; sourceTree = "<group>"; };
+		AB3C839FCB1688914D2BB1F001C80FE4 /* LLZShareLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLZShareLib-prefix.pch"; sourceTree = "<group>"; };
+		AC147B43369FCC92551C2F35F5A89711 /* LLZShareWechatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLZShareWechatHandler.h; path = LLZShareWX/Classes/LLZShareWechatHandler.h; sourceTree = "<group>"; };
+		ACB87A5982D3F342642F06E1C96E8D7F /* LLZShareKSHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLZShareKSHandler.h; path = LLZShareKS/Classes/LLZShareKSHandler.h; sourceTree = "<group>"; };
+		AD3AB9215A81F8C35CED997E802E8FDC /* LLZShareManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LLZShareManager.h; sourceTree = "<group>"; };
+		AF86D162EF25152CB1810F6A8F5928F2 /* LLZShareObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLZShareObject.h; path = LLZShareService/Classes/LLZShareObject.h; sourceTree = "<group>"; };
+		AFA645FAEEAD262F3ED11E44C03AD1C1 /* LLZShareSaveVideoHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LLZShareSaveVideoHandler.h; sourceTree = "<group>"; };
+		B09C55AD48A36ADB942CF4B4E540AE57 /* KSApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KSApi.h; sourceTree = "<group>"; };
+		B0A52F6AFD3E07FC2B56E0E262E2C73C /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		B2A03C0C1C5474C3B2DAFCD0C9A27146 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		B5BD173689717248EFDEEB8322DEF6B0 /* LLZShareMenuManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLZShareMenuManager.m; path = LLZShareLib/Classes/ShareUI/LLZShareMenuManager.m; sourceTree = "<group>"; };
+		B755F8CC110F7A3C8A199B9E476278D2 /* LLZShareQQ.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LLZShareQQ.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BADB333CC70BB63CA4C9EC3EF14B9817 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		BBDB1C260B346D0193029D2FAA7BB7A6 /* LLZShareSMSHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LLZShareSMSHandler.m; sourceTree = "<group>"; };
+		BC1453F8F36546707C48F9326C2D736D /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		BD7505F9C97E1A70A34135DD2ED07367 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		BEA3B92CFD0EBBDA401E15CF0ECA2086 /* LLZShareWX.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LLZShareWX.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF950201629D02493D785428B3011A3E /* LLZShareQQ-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLZShareQQ-prefix.pch"; sourceTree = "<group>"; };
+		BFA23A50C414FBF69097D7676440021F /* LLZShareService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLZShareService-umbrella.h"; sourceTree = "<group>"; };
+		C1AC665D85DC5F57A173CBC81A94C411 /* NSString+LLZShareLib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+LLZShareLib.m"; sourceTree = "<group>"; };
+		C2CF62C6BA9F94BFE4C327F10C517156 /* WechatOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.release.xcconfig; sourceTree = "<group>"; };
+		C47DE4FB148CDB4E719F8CC8B97E5501 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		C531C80CB09CB507989FB819658085A6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CC7A6E105579C5928055F62F953741DD /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GetMessageFromWXResp+responseWithTextOrMediaMessage.m"; sourceTree = "<group>"; };
+		CD7CE8B16CEB86D870EF69328977BCF4 /* Pods-PROJECT_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PROJECT_Example-resources.sh"; sourceTree = "<group>"; };
+		CD8FCF90FED56CE475590BED149C2E12 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		CD93802712161D1F16269385641DA124 /* LLZShareLib-ShareUI */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "LLZShareLib-ShareUI"; path = ShareUI.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0AFD690F6FA822E66F78984B5C175FD /* LLZShareManager+ShareUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LLZShareManager+ShareUI.h"; path = "LLZShareLib/Classes/ShareUI/LLZShareManager+ShareUI.h"; sourceTree = "<group>"; };
+		D1DC6275FBC7455722056A4C3BE2F7D8 /* Pods-PROJECT_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PROJECT_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D1E7324A939B4045153821BE782B5AD7 /* wx@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "wx@2x.png"; path = "LLZShareLib/Assets/ShareUI/wx@2x.png"; sourceTree = "<group>"; };
+		D551A708FF1C8B0D2FADB954A099858E /* YYModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYModel.modulemap; sourceTree = "<group>"; };
+		D9B3563489ADE8B4159762FB714D03DA /* TencentOpenAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TencentOpenAPI.release.xcconfig; sourceTree = "<group>"; };
+		DA02E69BD6A664FBD83259411676C7A7 /* Pods-PROJECT_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PROJECT_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA0FA0959CB6E5D08E5EF36D55A5F192 /* icon_phone@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_phone@2x.png"; path = "LLZShareLib/Assets/ShareUI/icon_phone@2x.png"; sourceTree = "<group>"; };
+		DA5C247389B18061E5905432652CBA8E /* LLZShareUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LLZShareUtils.h; sourceTree = "<group>"; };
+		DB2ED095FE3CE83A9CD0325E3AD058E0 /* LLZShareQQ-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLZShareQQ-umbrella.h"; sourceTree = "<group>"; };
+		DBF20ED15B4DE966D1F4EF337D2DD503 /* LLZShareWX */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = LLZShareWX; path = libLLZShareWX.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7C1567BE4CF8368CE47E8E0A3EEF14 /* WechatOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
+		DEC1C3A31505CFF48A5DF435C98D6456 /* LLZShareMenuItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLZShareMenuItem.h; path = LLZShareLib/Classes/ShareUI/LLZShareMenuItem.h; sourceTree = "<group>"; };
+		E019089F90020E34EBB96FE85531E96C /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		E20E77304513BCE21C4341EB0C4ACB68 /* icon_phone@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_phone@3x.png"; path = "LLZShareLib/Assets/ShareUI/icon_phone@3x.png"; sourceTree = "<group>"; };
+		E2445811C487FF1114228CD99DF3DDCC /* LLZShareLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLZShareLib-umbrella.h"; sourceTree = "<group>"; };
+		E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = YYModel; path = libYYModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4BCC1D7604423CC1A15636A09AA3960 /* DouyinOpenSDKShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DouyinOpenSDKShare.h; sourceTree = "<group>"; };
+		E4EC9C746E4B3E61FEA0FD44DF6414A1 /* LLZShareWX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLZShareWX.debug.xcconfig; sourceTree = "<group>"; };
+		E53D5FB390542ED0AA9D12C246228416 /* LLZShareKS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LLZShareKS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E6F510F5A13AD276CF8EB45712B93582 /* LLZShareSaveImageHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LLZShareSaveImageHandler.h; sourceTree = "<group>"; };
+		E7D086ACCA315D3189103556FB77E1C6 /* LLZShareMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLZShareMenuView.m; path = LLZShareLib/Classes/ShareUI/LLZShareMenuView.m; sourceTree = "<group>"; };
+		E81F85F5D37992F0F79E5CC1668CAADB /* icon_kuaishou@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_kuaishou@3x.png"; path = "LLZShareLib/Assets/ShareUI/icon_kuaishou@3x.png"; sourceTree = "<group>"; };
+		E88E771DA157BF6599D926F0B66683BA /* WXApiRequestHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiRequestHandler.h; sourceTree = "<group>"; };
+		EA83B93D75399F4204DDE3A865A5DBED /* LLZContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LLZContext.h; sourceTree = "<group>"; };
+		EA93976310E2D30460E9FD3A95E8A228 /* LLZShareContextModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLZShareContextModel.m; path = LLZShareService/Classes/LLZShareContextModel.m; sourceTree = "<group>"; };
+		EAE9AE74720B37D7B3CB6B1D3D20884B /* LLZSharePhoneHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LLZSharePhoneHandler.m; sourceTree = "<group>"; };
+		EC71B3DE936A451D81F1A9FE9CC442A5 /* LLZShareKS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLZShareKS-umbrella.h"; sourceTree = "<group>"; };
+		ED40DED214F214E30CF63D0C1D5DB9B2 /* LLZShareDY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLZShareDY.debug.xcconfig; sourceTree = "<group>"; };
+		ED413E664EDF063D3DA954C9C6503A3B /* KwaiSDK.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; path = KwaiSDK.podspec.json; sourceTree = "<group>"; };
+		ED9FA13BD4C3AC0058401029A365B8E2 /* LLZShareMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLZShareMenuView.h; path = LLZShareLib/Classes/ShareUI/LLZShareMenuView.h; sourceTree = "<group>"; };
+		EEA69A2BC12DDDC1645E1123B4F05D77 /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
+		EFD38275439C3932A4ACF53EC99D1BCF /* LLZShareEventTracker+LLZShareMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LLZShareEventTracker+LLZShareMenu.m"; path = "LLZShareLib/Classes/ShareUI/LLZShareEventTracker+LLZShareMenu.m"; sourceTree = "<group>"; };
+		F0D8AE8CD70880C48D2A8579896CD8D7 /* Pods-PROJECT_Example */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-PROJECT_Example"; path = "libPods-PROJECT_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C5D18D7D8CD1E5E0A73CE2442D582A /* TencentOpenAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TencentOpenAPI.debug.xcconfig; sourceTree = "<group>"; };
+		F3C884A462FE07E35539B7D85157C615 /* LLZShareUIConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLZShareUIConfig.h; path = LLZShareService/Classes/LLZShareUIConfig.h; sourceTree = "<group>"; };
+		F3D4AA79AA5AC02048BCD7169F49673E /* LLZShareLib */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = LLZShareLib; path = libLLZShareLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3DA5FD5918E772D5C235E11CD7EA028 /* LLZShareQQ-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LLZShareQQ-dummy.m"; sourceTree = "<group>"; };
+		F5D18BAA6BAEA8E3C543BB56CA6E8594 /* UIViewController+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Utils.m"; sourceTree = "<group>"; };
+		F6272EE16C844FE8B93B7230E3B7D979 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		F629D3F6663399C235FDCCAA93DCEB3E /* YYModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-umbrella.h"; sourceTree = "<group>"; };
+		F980D7DE876AD2456DF5444CEC84DA0F /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYModel.h"; path = "YYModel/NSObject+YYModel.h"; sourceTree = "<group>"; };
+		FAD565F4EB687DCCD77D1608FF49A0FA /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		FB01872A31E3576502A14854A8977DEF /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		FB065E3E84DD6653A28CE782CA3C0063 /* dx@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "dx@3x.png"; path = "LLZShareLib/Assets/ShareUI/dx@3x.png"; sourceTree = "<group>"; };
+		FB867FF54CF3D0D056553501F63DD68D /* icon_share_qq@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_qq@3x.png"; path = "LLZShareLib/Assets/ShareUI/icon_share_qq@3x.png"; sourceTree = "<group>"; };
+		FBB578CE7E74ADE26EFF0691751C80C6 /* Pods-PROJECT_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PROJECT_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC347587B5D508203D7139ED69A173FD /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		FC6755E8F2B46DED459593EAB936A3E2 /* DouyinOpenSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DouyinOpenSDK-umbrella.h"; sourceTree = "<group>"; };
+		FDC3066917353EA0AD6AF565E3949421 /* LLZShareWX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LLZShareWX-dummy.m"; sourceTree = "<group>"; };
+		FEC9FD09CE9ED7A7CEC917338C662928 /* icon_share_qzone@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_qzone@3x.png"; path = "LLZShareLib/Assets/ShareUI/icon_share_qzone@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		123B3F68AD5303960E519D070A95B1D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52404B62ABECF111BE63CE92D9FAE9C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582A3104E2A8816821D27B4466B11B1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E03A22F1F2CE03D95517268502A9707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F083AA099BE90C1A74FF5AA34FF7EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960CAC9C64DBC035CD23E153CE2BA5D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFFFFDE81966F82CB5BF95EAEB5E3CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09F1474226DD612765054106EB4484A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B21962904D3D9D1347AD6D7FF8F189D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7F09E48180D1E1CF2508183B156380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AE263A2F8BC32E521600CDF9FD3800 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				717141AE60A2A6A63F2BB131C15D1C9F /* LLZShareQQ.modulemap */,
+				F3DA5FD5918E772D5C235E11CD7EA028 /* LLZShareQQ-dummy.m */,
+				BF950201629D02493D785428B3011A3E /* LLZShareQQ-prefix.pch */,
+				DB2ED095FE3CE83A9CD0325E3AD058E0 /* LLZShareQQ-umbrella.h */,
+				A585CA875C2AB10528F39CA44D733ABA /* LLZShareQQ.debug.xcconfig */,
+				2383B3CF214939282ECCBDFCD8007F25 /* LLZShareQQ.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LLZShareQQ";
+			sourceTree = "<group>";
+		};
+		07424D3C8C6460EE8E68CDDE05F71A8B /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				FC6755E8F2B46DED459593EAB936A3E2 /* DouyinOpenSDK-umbrella.h */,
+				423DE39D2856F19B6B02B56EC3470A64 /* DouyinOpenSDKApplicationDelegate.h */,
+				403097C4790989F0F9C2F57D9BE92368 /* DouyinOpenSDKAuth.h */,
+				3AC6F972997FDC19BA5520ACA51B2B8B /* DouyinOpenSDKObjects.h */,
+				E4BCC1D7604423CC1A15636A09AA3960 /* DouyinOpenSDKShare.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		0C7D3FB3098BFFC64BE14E65866E7F14 /* TencentOpenAPI */ = {
+			isa = PBXGroup;
+			children = (
+				44C68CF1EB009514E5869D9832EF1C6C /* Frameworks */,
+				FC1A2226499B79FD40EC5296F49D8F04 /* Resources */,
+				FB39A9478922CAA4848C3A0CF8224E3E /* Support Files */,
+			);
+			name = TencentOpenAPI;
+			path = TencentOpenAPI;
+			sourceTree = "<group>";
+		};
+		14094D8D7286EC5C3CC0C6B2BA662C8E /* DouyinOpenSDK.framework */ = {
+			isa = PBXGroup;
+			children = (
+				07424D3C8C6460EE8E68CDDE05F71A8B /* Headers */,
+			);
+			name = DouyinOpenSDK.framework;
+			path = DouyinOpenSDK.framework;
+			sourceTree = "<group>";
+		};
+		17CE960BA0AA6AE9BAFFDBD1B0248EA0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				70E28620E9D55B0300E894431D030A3F /* Pods-PROJECT_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		217B4517B3CE2BD4F1EB24A8207858D5 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				F980D7DE876AD2456DF5444CEC84DA0F /* NSObject+YYModel.h */,
+				90F52AAB4521942374642630AC4DDD20 /* NSObject+YYModel.m */,
+				EEA69A2BC12DDDC1645E1123B4F05D77 /* YYClassInfo.h */,
+				5D6D7807CF84604159362487ADB8F8ED /* YYClassInfo.m */,
+				21983EF0217EA4D0524E2056C7CDBF7C /* YYModel.h */,
+				8363E065E74C2A3AE0EE2E5D9B9E7804 /* Support Files */,
+			);
+			name = YYModel;
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		25D38DEC362DD9141EDBBB64B855959B /* SocialPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				9A58C3A4AB075E5E48514C565929753F /* libKwaiSDK */,
+			);
+			name = SocialPlatform;
+			path = LLZShareKS/Classes/SocialPlatform;
+			sourceTree = "<group>";
+		};
+		27DCC06005BDC1388DD1378D0F08E07B /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				3B56B9DEF62DCA5F1F3C9BF292A8464C /* MASCompositeConstraint.h */,
+				592C5D0112E292FCDD2E1B147CE44124 /* MASCompositeConstraint.m */,
+				8DE74377A0C2C85BB25F2C94E0EE705B /* MASConstraint.h */,
+				38E7D88B216208443D1859CCEEFAA276 /* MASConstraint.m */,
+				F6272EE16C844FE8B93B7230E3B7D979 /* MASConstraint+Private.h */,
+				FAD565F4EB687DCCD77D1608FF49A0FA /* MASConstraintMaker.h */,
+				42B99C1E50D432EC55C70A9C894F2276 /* MASConstraintMaker.m */,
+				8F5E03D6E71E114265C4A625D169E847 /* MASLayoutConstraint.h */,
+				BC1453F8F36546707C48F9326C2D736D /* MASLayoutConstraint.m */,
+				73917F9F36FC553F71BD2E1D2422D5A9 /* Masonry.h */,
+				8AEB25D740264CEBC71142AC4BB5BEAE /* MASUtilities.h */,
+				FC347587B5D508203D7139ED69A173FD /* MASViewAttribute.h */,
+				B2A03C0C1C5474C3B2DAFCD0C9A27146 /* MASViewAttribute.m */,
+				17828C8884E3961A96F34C7A95808B82 /* MASViewConstraint.h */,
+				52EEB5E669607DF3DBF892093D73BA90 /* MASViewConstraint.m */,
+				16A312719760BA6B30F7B3C0627E755B /* NSArray+MASAdditions.h */,
+				2BD97AE37547BD099EE1E863780D3983 /* NSArray+MASAdditions.m */,
+				94621D17321B4DE99512856D9F04F8C9 /* NSArray+MASShorthandAdditions.h */,
+				BADB333CC70BB63CA4C9EC3EF14B9817 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				C47DE4FB148CDB4E719F8CC8B97E5501 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				FB01872A31E3576502A14854A8977DEF /* View+MASAdditions.h */,
+				686ADAD20EE9AC5FB6EA1E397510F7DE /* View+MASAdditions.m */,
+				0485263CA6FFACD15734329ADFE4F080 /* View+MASShorthandAdditions.h */,
+				E019089F90020E34EBB96FE85531E96C /* ViewController+MASAdditions.h */,
+				BD7505F9C97E1A70A34135DD2ED07367 /* ViewController+MASAdditions.m */,
+				5F7239107FC5D3C6B1E3DF47BAC17AD5 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		287A246285227A729618E7DC8B4A1A45 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				405C2DFE15EBF130CC4AAE9376215558 /* LLZShareService.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2CF599F490DDB2F47A83DC6A27B03A3C /* ShareUI */ = {
+			isa = PBXGroup;
+			children = (
+				894622DEF5CEDA61423341B159D9C27C /* dx@2x.png */,
+				FB065E3E84DD6653A28CE782CA3C0063 /* dx@3x.png */,
+				82AD523AB3E35B5FA9FC7025AF0EF1B7 /* icon_douyin@2x.png */,
+				6F595B45699C5CBDAD7E324BF0EF1073 /* icon_douyin@3x.png */,
+				30C51F1EE0BB119A1B461513F166422E /* icon_download@2x.png */,
+				1CABB69A29DC7D7396F3FE6BBBF9CA10 /* icon_download@3x.png */,
+				0174432E235F2754272456836C3AC38E /* icon_kuaishou@2x.png */,
+				E81F85F5D37992F0F79E5CC1668CAADB /* icon_kuaishou@3x.png */,
+				DA0FA0959CB6E5D08E5EF36D55A5F192 /* icon_phone@2x.png */,
+				E20E77304513BCE21C4341EB0C4ACB68 /* icon_phone@3x.png */,
+				41220A9E9E3E074D5954B6F557D5D5C0 /* icon_share_close@2x.png */,
+				661A8524FA06454F45AA5AB58B9E0BD8 /* icon_share_close@3x.png */,
+				46400EB93417C54AE60BF9723B121553 /* icon_share_custom@2x.png */,
+				711B9D1EBC400F7B945A10CB5959A5BC /* icon_share_custom@3x.png */,
+				2BE3C994F0807FFCCD33F575BAE34682 /* icon_share_qq@2x.png */,
+				FB867FF54CF3D0D056553501F63DD68D /* icon_share_qq@3x.png */,
+				90AAFE3999CA2BD04D6104C313E2DE2B /* icon_share_qzone@2x.png */,
+				FEC9FD09CE9ED7A7CEC917338C662928 /* icon_share_qzone@3x.png */,
+				3EB60BCC493C9DAC2E262946A77C9AF9 /* LLZGPopupMaskConfig.h */,
+				A1B0BCD948687CF664D5FE29445DBB1F /* LLZGPopupMaskConfig.m */,
+				9D68FE5636B35EBD2DEC4ADAE2EBC83F /* LLZGPopupMaskView.h */,
+				4AD556915A0F445D627885D7CCF80A7F /* LLZGPopupMaskView.m */,
+				8C08EE2DF03CABA03B8C56579646F1BF /* LLZGPopupMaskViewDelegate.h */,
+				2D653FE61EC352E9DC36285DD89380C0 /* LLZShareEventTracker+LLZShareMenu.h */,
+				EFD38275439C3932A4ACF53EC99D1BCF /* LLZShareEventTracker+LLZShareMenu.m */,
+				D0AFD690F6FA822E66F78984B5C175FD /* LLZShareManager+ShareUI.h */,
+				640DAAE33B17271B15F5B36804D605A2 /* LLZShareManager+ShareUI.m */,
+				DEC1C3A31505CFF48A5DF435C98D6456 /* LLZShareMenuItem.h */,
+				9D2D516EF4E997A1C923DAAC4A5215D1 /* LLZShareMenuItem.m */,
+				8361D8FAA7E553267393C5DC1AADAA03 /* LLZShareMenuManager.h */,
+				B5BD173689717248EFDEEB8322DEF6B0 /* LLZShareMenuManager.m */,
+				ED9FA13BD4C3AC0058401029A365B8E2 /* LLZShareMenuView.h */,
+				E7D086ACCA315D3189103556FB77E1C6 /* LLZShareMenuView.m */,
+				4B20B721277AC743B5D17A1FF476AF4E /* pyq@2x.png */,
+				229A7D82164E3B83F621846FEE11FC95 /* pyq@3x.png */,
+				4A56CD6C24EE42CF9DC0772DF1768261 /* Root.plist */,
+				5B757E8B5E10B7477E11393520F6B6E1 /* saveimg@2x.png */,
+				0244CDE7E6982FB245AF901DD03692BA /* saveimg@3x.png */,
+				D1E7324A939B4045153821BE782B5AD7 /* wx@2x.png */,
+				170283C0EE878A9FBAD152C8C7239304 /* wx@3x.png */,
+			);
+			name = ShareUI;
+			sourceTree = "<group>";
+		};
+		2F723CC9DA9A68DB0F91A94C84F02522 /* LLZShareKS */ = {
+			isa = PBXGroup;
+			children = (
+				ACB87A5982D3F342642F06E1C96E8D7F /* LLZShareKSHandler.h */,
+				86FA4A7CE6556094C027DD82AA1124E7 /* LLZShareKSHandler.m */,
+				BD479F96DA90BE55BDB4BDBB316CE5E2 /* Frameworks */,
+				364DEDF9E1B209B4D6DB022C7F3C54C1 /* Pod */,
+				25D38DEC362DD9141EDBBB64B855959B /* SocialPlatform */,
+				D219D5AD7DE0F1B26E28F9757BF1F5B1 /* Support Files */,
+			);
+			name = LLZShareKS;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		30B5DF732EB1AA438DBE8B430036EBA9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EA83B93D75399F4204DDE3A865A5DBED /* LLZContext.h */,
+				9DCAA291539E5507E7A8C77B69F7BEA4 /* LLZContext.m */,
+				94D055A027C2B2FF7E258AE5C83A76EA /* LLZService.h */,
+				1D16B7195053D5D17CDA9E2434F1CA29 /* LLZService.m */,
+				24EEF576B9CD5990E778942BAE8A157B /* LLZServiceCenter.h */,
+				3D537009BD98915E543796A340850A91 /* LLZServiceCenter.m */,
+			);
+			name = Service;
+			path = Service;
+			sourceTree = "<group>";
+		};
+		364DEDF9E1B209B4D6DB022C7F3C54C1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E53D5FB390542ED0AA9D12C246228416 /* LLZShareKS.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		44C68CF1EB009514E5869D9832EF1C6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD8FCF90FED56CE475590BED149C2E12 /* TencentOpenAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4558060370383C309DFEE2CF52568A12 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1277D60213E816ED09A0B6ADBD8F37F0 /* LLZShareWX.modulemap */,
+				FDC3066917353EA0AD6AF565E3949421 /* LLZShareWX-dummy.m */,
+				7436849558F71AA92218FA77D363D3E2 /* LLZShareWX-prefix.pch */,
+				3E5C24E1A838849B51527D9A28D19F3C /* LLZShareWX-umbrella.h */,
+				E4EC9C746E4B3E61FEA0FD44DF6414A1 /* LLZShareWX.debug.xcconfig */,
+				6AEB1909BB05BA52C54BA4EC3D1B6F6D /* LLZShareWX.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LLZShareWX";
+			sourceTree = "<group>";
+		};
+		4EBA8A99845793AB093CD319031DD506 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2419362E8D58B2F28A1407EA5C1DC2E7 /* LLZShareLib.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		56CA9AB0F8F7D2B59044BA165712857C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8655DB1A0A775064B2EB04921D71A374 /* LLZShareDY.modulemap */,
+				229A44FBD422B5CBC1C6B9A20A0B69A2 /* LLZShareDY-dummy.m */,
+				0AFED88185445A43C91D298C12546FF2 /* LLZShareDY-prefix.pch */,
+				6E81119E3B094B66AEA2338402E41A44 /* LLZShareDY-umbrella.h */,
+				ED40DED214F214E30CF63D0C1D5DB9B2 /* LLZShareDY.debug.xcconfig */,
+				29FC36913E791CAF686BDFEA1B589388 /* LLZShareDY.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LLZShareDY";
+			sourceTree = "<group>";
+		};
+		5F7239107FC5D3C6B1E3DF47BAC17AD5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22321B689D87E7DB68383DEF005FE3EA /* Masonry.modulemap */,
+				3738B302FC198E0F58AC4F03851E769D /* Masonry-dummy.m */,
+				25399A57727C7692EC53126E6F8182D3 /* Masonry-prefix.pch */,
+				B0A52F6AFD3E07FC2B56E0E262E2C73C /* Masonry-umbrella.h */,
+				6873CAFA85DF9705EC41C6C898AE4969 /* Masonry.debug.xcconfig */,
+				166A0CD62F6498DABB13EDF527E35855 /* Masonry.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		63F11CFE756E064CBF2D56C5FAADC1D3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46B078D629E453D04A478E98F9C23870 /* LLZShareService.modulemap */,
+				644D0E9CAE624F032485D7D3BE07D637 /* LLZShareService-dummy.m */,
+				026CE90851D24DCB06DC73E1CB3A168E /* LLZShareService-prefix.pch */,
+				BFA23A50C414FBF69097D7676440021F /* LLZShareService-umbrella.h */,
+				1AF7240521DFEB8AC1981D153D0E3EDC /* LLZShareService.debug.xcconfig */,
+				3BCD7C246E2E379DDCB7D1202D5AEDDC /* LLZShareService.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LLZShareService";
+			sourceTree = "<group>";
+		};
+		659996FA245654B244E75874EDC6B9E3 /* ShareHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				7AFB81C37BD07880C574DFB0D515CFAF /* LLZShareChannelHandler.h */,
+				6EAB2AA53E12526038C2F77351DCA7DB /* LLZShareChannelHandler.m */,
+				9E273E81995BFE258701A3B2A4936FF3 /* LLZSharePhoneHandler.h */,
+				EAE9AE74720B37D7B3CB6B1D3D20884B /* LLZSharePhoneHandler.m */,
+				E6F510F5A13AD276CF8EB45712B93582 /* LLZShareSaveImageHandler.h */,
+				06FA00C9EABC70B92D857CD5F447B284 /* LLZShareSaveImageHandler.m */,
+				AFA645FAEEAD262F3ED11E44C03AD1C1 /* LLZShareSaveVideoHandler.h */,
+				72F7673FF6C5D361B72D2D26F8EBBA0E /* LLZShareSaveVideoHandler.m */,
+				4BD6FCD74915B0E455DF0AEC7D2B0C24 /* LLZShareSMSHandler.h */,
+				BBDB1C260B346D0193029D2FAA7BB7A6 /* LLZShareSMSHandler.m */,
+			);
+			name = ShareHandlers;
+			path = ShareHandlers;
+			sourceTree = "<group>";
+		};
+		70E28620E9D55B0300E894431D030A3F /* Pods-PROJECT_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DA02E69BD6A664FBD83259411676C7A7 /* Pods-PROJECT_Example-acknowledgements.markdown */,
+				FBB578CE7E74ADE26EFF0691751C80C6 /* Pods-PROJECT_Example-acknowledgements.plist */,
+				7B149CF937158AC0B4B045436CA5AAEB /* Pods-PROJECT_Example-dummy.m */,
+				CD7CE8B16CEB86D870EF69328977BCF4 /* Pods-PROJECT_Example-resources.sh */,
+				8928BB084553635106975F32F3AB676B /* Pods-PROJECT_Example.debug.xcconfig */,
+				D1DC6275FBC7455722056A4C3BE2F7D8 /* Pods-PROJECT_Example.release.xcconfig */,
+			);
+			name = "Pods-PROJECT_Example";
+			path = "Target Support Files/Pods-PROJECT_Example";
+			sourceTree = "<group>";
+		};
+		76F5FD5AC0A8FBF732D4CDF2FED7406D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17B449D490A43581F78C237C815E08C9 /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D52B66D9B7FA352A9E7672553FB8B2B /* SocialPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				14094D8D7286EC5C3CC0C6B2BA662C8E /* DouyinOpenSDK.framework */,
+			);
+			name = SocialPlatform;
+			path = LLZShareDY/Classes/SocialPlatform;
+			sourceTree = "<group>";
+		};
+		82761293E3F48C2DAF92B12B656FE867 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC7C1567BE4CF8368CE47E8E0A3EEF14 /* WechatOpenSDK.debug.xcconfig */,
+				C2CF62C6BA9F94BFE4C327F10C517156 /* WechatOpenSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WechatOpenSDK";
+			sourceTree = "<group>";
+		};
+		8363E065E74C2A3AE0EE2E5D9B9E7804 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D551A708FF1C8B0D2FADB954A099858E /* YYModel.modulemap */,
+				947EC0A4E7FB130F7422000662DB2648 /* YYModel-dummy.m */,
+				93D42EF307E204053FADD719411B0BF0 /* YYModel-prefix.pch */,
+				F629D3F6663399C235FDCCAA93DCEB3E /* YYModel-umbrella.h */,
+				09352F06A9E1526D41DC3C8D43AE5282 /* YYModel.debug.xcconfig */,
+				66DD75677024EAF7B168B1BD5F4930D2 /* YYModel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YYModel";
+			sourceTree = "<group>";
+		};
+		8A2628E9C0D70192635BD20684F3BA9D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				610DE774029C0C984ACE759A6AF57DA4 /* LLZShareChannelManager.h */,
+				81B64322892530ABE06BC461FE8C4CA5 /* LLZShareChannelManager.m */,
+				32C8E68383E10FCE7D46ED7A248073DE /* LLZShareEventTracker.h */,
+				2085373E6D93EEAA9EE289845F996370 /* LLZShareEventTracker.m */,
+				AD3AB9215A81F8C35CED997E802E8FDC /* LLZShareManager.h */,
+				5612F134E95BCEB964569A7179C7F2D9 /* LLZShareManager.m */,
+				659996FA245654B244E75874EDC6B9E3 /* ShareHandlers */,
+			);
+			name = Core;
+			path = LLZShareLib/Classes/Core;
+			sourceTree = "<group>";
+		};
+		99383682518887C25E42AAEDC8E7BE78 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				715CC197A5B8C9CEF4022F5376C5E149 /* libKwaiSDK.a */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		9A58C3A4AB075E5E48514C565929753F /* libKwaiSDK */ = {
+			isa = PBXGroup;
+			children = (
+				ED413E664EDF063D3DA954C9C6503A3B /* KwaiSDK.podspec.json */,
+				4130DDE0F6F8B5FE9D751BF16F5A755F /* source.txt */,
+				BBC1F7B8B1FB2AED7E39EB1280841184 /* Headers */,
+				99383682518887C25E42AAEDC8E7BE78 /* ios */,
+			);
+			name = libKwaiSDK;
+			path = libKwaiSDK;
+			sourceTree = "<group>";
+		};
+		9B9975534E3578CF86E9370102ED5589 /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				62F9B11F531CDDF4C428D9E395EFE29D /* WechatAuthSDK.h */,
+				1E1E72E15EB84D4734D64CCF4D51C561 /* WXApi.h */,
+				81A0B29254CD5E168377D91DEE317D40 /* WXApiObject.h */,
+				76F5FD5AC0A8FBF732D4CDF2FED7406D /* Frameworks */,
+				82761293E3F48C2DAF92B12B656FE867 /* Support Files */,
+			);
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		9E40C6BA64243E2002CB685D01C398D2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3E7E5D3BF8A8DE9478A2613F2F7FCD6 /* LLZShareDY */,
+				2F723CC9DA9A68DB0F91A94C84F02522 /* LLZShareKS */,
+				C4A75E49D1AB3F516E015FDD17B7E5B0 /* LLZShareLib */,
+				BE598E91CD65120ABFF3B19D7D72A101 /* LLZShareQQ */,
+				B809721881F612917E069B8CC037633C /* LLZShareService */,
+				FDCDFB455911535C65984DD75B946F1F /* LLZShareWX */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B3E91157D0CA56A545D9D58B8F6FD3B2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BEA3B92CFD0EBBDA401E15CF0ECA2086 /* LLZShareWX.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B809721881F612917E069B8CC037633C /* LLZShareService */ = {
+			isa = PBXGroup;
+			children = (
+				9DA73C9E533C165FA00E05877E450000 /* LLZShareChannelObjectWrapper.h */,
+				501CD0149502831E006D5C17851E92B5 /* LLZShareChannelObjectWrapper.m */,
+				1B3646925EF15EC1A2EC98F90F88205B /* LLZShareContextModel.h */,
+				EA93976310E2D30460E9FD3A95E8A228 /* LLZShareContextModel.m */,
+				6F6022CC7FF998D34C534F7B17F1D4E4 /* LLZShareDefine.h */,
+				8890746FDC9D7416E1639A18C78DB4D8 /* LLZShareDefine.m */,
+				AF86D162EF25152CB1810F6A8F5928F2 /* LLZShareObject.h */,
+				356AFEC71B771A7642D660E0D62CBE9F /* LLZShareObject.m */,
+				F3C884A462FE07E35539B7D85157C615 /* LLZShareUIConfig.h */,
+				12C9D0CD7589463A5AC7963F7A4FE365 /* LLZShareUIConfig.m */,
+				287A246285227A729618E7DC8B4A1A45 /* Pod */,
+				63F11CFE756E064CBF2D56C5FAADC1D3 /* Support Files */,
+			);
+			name = LLZShareService;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BA08E3CA8AE153968B25FF8C0B3AEC4B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C531C80CB09CB507989FB819658085A6 /* LICENSE */,
+				1EE633D833AE8D914C297317C082D702 /* LLZShareDY.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BBC1F7B8B1FB2AED7E39EB1280841184 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				B09C55AD48A36ADB942CF4B4E540AE57 /* KSApi.h */,
+				110C6D60AAA4D90D874A16B77F45867C /* KSApiObject.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		BD479F96DA90BE55BDB4BDBB316CE5E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE598E91CD65120ABFF3B19D7D72A101 /* LLZShareQQ */ = {
+			isa = PBXGroup;
+			children = (
+				943C011C0331EC4AA88E011C91CFA8C5 /* LLZShareQQHandler.h */,
+				1B62A2E7E0043EDB3F8698252F49E0CB /* LLZShareQQHandler.m */,
+				E7FE1F00C56167755651CF30D99DA224 /* Pod */,
+				04AE263A2F8BC32E521600CDF9FD3800 /* Support Files */,
+			);
+			name = LLZShareQQ;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C3E7E5D3BF8A8DE9478A2613F2F7FCD6 /* LLZShareDY */ = {
+			isa = PBXGroup;
+			children = (
+				34288F408A864975F282C7C06890A743 /* LLZShareDYHandler.h */,
+				713BFE97B4E64D439AE37BE5BD68D48D /* LLZShareDYHandler.m */,
+				C953FFB52F92DCD0B6DC1E4241804E44 /* Frameworks */,
+				BA08E3CA8AE153968B25FF8C0B3AEC4B /* Pod */,
+				7D52B66D9B7FA352A9E7672553FB8B2B /* SocialPlatform */,
+				56CA9AB0F8F7D2B59044BA165712857C /* Support Files */,
+			);
+			name = LLZShareDY;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C48492B8F5743F4CC20D5E2865573F67 /* WXHelper */ = {
+			isa = PBXGroup;
+			children = (
+				9DD653F73BC7F9A562E7DE2A67BA5F94 /* Constant.h */,
+				8FCA79E598017D44CDD14044921392BC /* GetMessageFromWXResp+responseWithTextOrMediaMessage.h */,
+				CC7A6E105579C5928055F62F953741DD /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m */,
+				18B21DBF9AB1AB294D6B05A13CFE0F0E /* SendMessageToWXReq+requestWithTextOrMediaMessage.h */,
+				74731E75EEC5B055B9A7FD58AB765B7A /* SendMessageToWXReq+requestWithTextOrMediaMessage.m */,
+				0ED412C234F91141DF92B2B1F9FDAF3D /* WXMediaMessage+messageConstruct.h */,
+				610B034EC1EC7265A241754FC15732EF /* WXMediaMessage+messageConstruct.m */,
+			);
+			name = WXHelper;
+			path = WXHelper;
+			sourceTree = "<group>";
+		};
+		C4A75E49D1AB3F516E015FDD17B7E5B0 /* LLZShareLib */ = {
+			isa = PBXGroup;
+			children = (
+				DDC7F2D6BFCCBD402B880DA68ED00FA6 /* Core */,
+				4EBA8A99845793AB093CD319031DD506 /* Pod */,
+				2CF599F490DDB2F47A83DC6A27B03A3C /* ShareUI */,
+				E9E4F4F9E9B5291E2C13BBB5CEBD10CA /* Support Files */,
+			);
+			name = LLZShareLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C953FFB52F92DCD0B6DC1E4241804E44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B9D64F40F9C15270E63D2E56C806DA5 /* DouyinOpenSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBDE888E2568424926E9D70977AD4E01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27DCC06005BDC1388DD1378D0F08E07B /* Masonry */,
+				0C7D3FB3098BFFC64BE14E65866E7F14 /* TencentOpenAPI */,
+				9B9975534E3578CF86E9370102ED5589 /* WechatOpenSDK */,
+				217B4517B3CE2BD4F1EB24A8207858D5 /* YYModel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD11C8457F528ED3E7875A4F0BD562ED /* SDKExport */ = {
+			isa = PBXGroup;
+			children = (
+				95601403FEB0A3706159083849E83E27 /* WechatAuthSDK.h */,
+				DF6F1120BA9829E14834E0B53CD4A0EC /* WXControl */,
+				C48492B8F5743F4CC20D5E2865573F67 /* WXHelper */,
+			);
+			name = SDKExport;
+			path = LLZShareWX/Classes/SDKExport;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9E40C6BA64243E2002CB685D01C398D2 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				CBDE888E2568424926E9D70977AD4E01 /* Pods */,
+				E7B924D1545E15532F4D25C1489E35E8 /* Products */,
+				17CE960BA0AA6AE9BAFFDBD1B0248EA0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D219D5AD7DE0F1B26E28F9757BF1F5B1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89468217EAA1CB065085DEC8C8EC7BD7 /* LLZShareKS.modulemap */,
+				0642E4348D11FCAF99D25AEB1B830E56 /* LLZShareKS-dummy.m */,
+				608DB6DACF18EB5678C06A466B1353DA /* LLZShareKS-prefix.pch */,
+				EC71B3DE936A451D81F1A9FE9CC442A5 /* LLZShareKS-umbrella.h */,
+				4A74EA3A0FF6848606BB6093F360AE36 /* LLZShareKS.debug.xcconfig */,
+				6F4D15E18F1159EF35790351DE87AB43 /* LLZShareKS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LLZShareKS";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDC7F2D6BFCCBD402B880DA68ED00FA6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8A2628E9C0D70192635BD20684F3BA9D /* Core */,
+				F297F968B414940672B93C0B73E3972D /* Utils */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		DF6F1120BA9829E14834E0B53CD4A0EC /* WXControl */ = {
+			isa = PBXGroup;
+			children = (
+				89D0D843580B8645C68A1AA05D7257E8 /* WXApiManager.h */,
+				7E81E6EF2A59CF5A3788AE1DC49DBF93 /* WXApiManager.m */,
+				E88E771DA157BF6599D926F0B66683BA /* WXApiRequestHandler.h */,
+				4A31339E188F4A1B096E7D67E9273F8B /* WXApiRequestHandler.m */,
+				AACC7F2D8457521B7EFC1D04A81907F0 /* WXApiRequestSender.h */,
+				68AD12011D187D5337FF2D7898D8FA7A /* WXApiRequestSender.m */,
+				71ADBDE3B8B5EBE52A0163463C059142 /* WXApiResponseHandler.h */,
+				53E30152A0EA715C8D06E3D1237BAC8C /* WXApiResponseHandler.m */,
+			);
+			name = WXControl;
+			path = WXControl;
+			sourceTree = "<group>";
+		};
+		E7B924D1545E15532F4D25C1489E35E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EA54B4B0C62D9937272275341CFCBFE /* LLZShareDY */,
+				8A3A221D58B3054151CC6B8200924965 /* LLZShareKS */,
+				F3D4AA79AA5AC02048BCD7169F49673E /* LLZShareLib */,
+				CD93802712161D1F16269385641DA124 /* LLZShareLib-ShareUI */,
+				4398C45240A3D045FCF3DE5851FD53F5 /* LLZShareQQ */,
+				6A5FB9F0079C5121102AB6288A8C3B29 /* LLZShareService */,
+				DBF20ED15B4DE966D1F4EF337D2DD503 /* LLZShareWX */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry */,
+				F0D8AE8CD70880C48D2A8579896CD8D7 /* Pods-PROJECT_Example */,
+				E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7FE1F00C56167755651CF30D99DA224 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B755F8CC110F7A3C8A199B9E476278D2 /* LLZShareQQ.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E9E4F4F9E9B5291E2C13BBB5CEBD10CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				55AADF34C7CC7591F6FAC9AD5562C352 /* LLZShareLib.modulemap */,
+				85A9FFDCCBADBD1CCB91CA18BBAC0C96 /* LLZShareLib-dummy.m */,
+				AB3C839FCB1688914D2BB1F001C80FE4 /* LLZShareLib-prefix.pch */,
+				E2445811C487FF1114228CD99DF3DDCC /* LLZShareLib-umbrella.h */,
+				59F98F2B1B3396FED1A4677E9EFBD47B /* LLZShareLib.debug.xcconfig */,
+				76E39B160472AF8CB8C99B8EC37D2120 /* LLZShareLib.release.xcconfig */,
+				634B8D97B5566F25302A449E08F9C5D9 /* ResourceBundle-ShareUI-LLZShareLib-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LLZShareLib";
+			sourceTree = "<group>";
+		};
+		F297F968B414940672B93C0B73E3972D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A26F32B78649A27FD98592A84D439C40 /* LLZShareObject+LLZShareLib.h */,
+				85256C70B85C1846833289CC7CBA414A /* LLZShareObject+LLZShareLib.m */,
+				DA5C247389B18061E5905432652CBA8E /* LLZShareUtils.h */,
+				0B0A11068CAE938F54BEF1E3515F3B20 /* LLZShareUtils.m */,
+				8C84AD06781996A2CA2A78FB48F998A8 /* NSString+LLZShareLib.h */,
+				C1AC665D85DC5F57A173CBC81A94C411 /* NSString+LLZShareLib.m */,
+				58FD795345242427E8B34E890AE41376 /* UIViewController+Utils.h */,
+				F5D18BAA6BAEA8E3C543BB56CA6E8594 /* UIViewController+Utils.m */,
+				30B5DF732EB1AA438DBE8B430036EBA9 /* Service */,
+			);
+			name = Utils;
+			path = LLZShareLib/Classes/Utils;
+			sourceTree = "<group>";
+		};
+		FB39A9478922CAA4848C3A0CF8224E3E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2C5D18D7D8CD1E5E0A73CE2442D582A /* TencentOpenAPI.debug.xcconfig */,
+				D9B3563489ADE8B4159762FB714D03DA /* TencentOpenAPI.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TencentOpenAPI";
+			sourceTree = "<group>";
+		};
+		FC1A2226499B79FD40EC5296F49D8F04 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5303383B931C0FEBECED48ED3432524B /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FDCDFB455911535C65984DD75B946F1F /* LLZShareWX */ = {
+			isa = PBXGroup;
+			children = (
+				AC147B43369FCC92551C2F35F5A89711 /* LLZShareWechatHandler.h */,
+				616AFAFF164F136935AF0396E609CF89 /* LLZShareWechatHandler.m */,
+				B3E91157D0CA56A545D9D58B8F6FD3B2 /* Pod */,
+				CD11C8457F528ED3E7875A4F0BD562ED /* SDKExport */,
+				4558060370383C309DFEE2CF52568A12 /* Support Files */,
+			);
+			name = LLZShareWX;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		268DB7E0FEC8AFB48BFFC62C0BE176F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2D39A508C8884890C505D7E80D688A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9A5378E611BD04C003E9BE47FD2F8D /* LLZShareQQ-umbrella.h in Headers */,
+				402F0B02AE2B1900FB97F742C57E326F /* LLZShareQQHandler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E34B889053CC15F1BDAA780D3793C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17612A6652ED4A5D813D0126445899EB /* NSObject+YYModel.h in Headers */,
+				89FB987E1C6F678EBD172951D7A0BD02 /* YYClassInfo.h in Headers */,
+				C72F564D62065D9C1569ABFC8BCE0EE7 /* YYModel.h in Headers */,
+				5AE9877F6B290AC72CB16892AB79E32D /* YYModel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FD986E1D1FDFF9B8F6BECB5A3171FCF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B861224573A5BBB806E54447685406E6 /* DouyinOpenSDK-umbrella.h in Headers */,
+				DC9F4A2B44049A299CB551BB6D2FA835 /* DouyinOpenSDKApplicationDelegate.h in Headers */,
+				D4836BE79790258CAD62F8A437138087 /* DouyinOpenSDKAuth.h in Headers */,
+				6939B06556B42625E98C9505466D77DD /* DouyinOpenSDKObjects.h in Headers */,
+				F3F0AE8CDCCE730D739A5FBACEC8C9D2 /* DouyinOpenSDKShare.h in Headers */,
+				A2500FDEF4496FF1E761814896DBC980 /* LLZShareDY-umbrella.h in Headers */,
+				0895BAF00BB3050FCFCF1F0458D235E3 /* LLZShareDYHandler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81991DCEAC0FEF52F2DF22A60CCC07B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B4EA21338262B9E09D57EDC87BF7A1 /* MASCompositeConstraint.h in Headers */,
+				FF2CDECE7E1D81EE094C95328CEC9EFA /* MASConstraint.h in Headers */,
+				6CDD9B486858111C3BCE6AA6549446DF /* MASConstraint+Private.h in Headers */,
+				888E465B8D4C3BE6D2A33D4DC165B563 /* MASConstraintMaker.h in Headers */,
+				B6D7A5FF5FA3A4BFC19555D96FD7D702 /* MASLayoutConstraint.h in Headers */,
+				4FAE82E37CF07B9D6612A449B7F1F890 /* Masonry.h in Headers */,
+				2891E8AB9411B39634443990FAE47821 /* Masonry-umbrella.h in Headers */,
+				F64D8DD19AE85BB42C3F37FFC792ED9F /* MASUtilities.h in Headers */,
+				F51A0918CC6D6F9882889B7991BC0D51 /* MASViewAttribute.h in Headers */,
+				E29686380CE1C6ABAB3FBACD0904A92A /* MASViewConstraint.h in Headers */,
+				48E93B1687BA9BB06977E75471ABC66F /* NSArray+MASAdditions.h in Headers */,
+				B98FA820ED6C633C62D60B0E567A5078 /* NSArray+MASShorthandAdditions.h in Headers */,
+				743F327F72AFF339B62B20110D747D64 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				8E4E9FE73FBFEB19168F8FCC359844D4 /* View+MASAdditions.h in Headers */,
+				55BF7120A17C304A70FF4F6E4AAF49D5 /* View+MASShorthandAdditions.h in Headers */,
+				624D516A5254312DAAD961EC07A8C3CF /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A70BAB2C7120AD0515A03E3D3F15FFAE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFBCA8152D12BFAB1D2CD7D8481A181 /* LLZShareChannelObjectWrapper.h in Headers */,
+				68D8E7DBC44179768C1F16D4C4BF62D6 /* LLZShareContextModel.h in Headers */,
+				DC0C2FAF52A5CE7BA26C40376E15A286 /* LLZShareDefine.h in Headers */,
+				3F4F6FE3394DEFAA40F3F854EB7F1CE5 /* LLZShareObject.h in Headers */,
+				4D7502BA7D4251E84298E7797E79876A /* LLZShareService-umbrella.h in Headers */,
+				06BE291360FBDF1C0DC10A8E7DF97712 /* LLZShareUIConfig.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1D0BC6E01076ABEB2F03B84907B5C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23FCA35745A1481747282A8F4A84E51 /* LLZContext.h in Headers */,
+				A8074E908ADE3598FDBB19725E965292 /* LLZGPopupMaskConfig.h in Headers */,
+				7478B918206B2141C19941F8C3005E46 /* LLZGPopupMaskView.h in Headers */,
+				79886D9C8D137A8D5DB0EFFF90553099 /* LLZGPopupMaskViewDelegate.h in Headers */,
+				5CD10303A4879E2006ADFA93815597D0 /* LLZService.h in Headers */,
+				845AEF3C478FF103CBDFD12CF543BC7C /* LLZServiceCenter.h in Headers */,
+				FEB8D8ED892024B99014C265D7CFAAF3 /* LLZShareChannelHandler.h in Headers */,
+				D2D15729181601F866AAC858C9F8BCD7 /* LLZShareChannelManager.h in Headers */,
+				66B2F39B2F815D6E058450A1CA7FEB05 /* LLZShareEventTracker.h in Headers */,
+				FFC897318D45D90BA6EB001813D815B9 /* LLZShareEventTracker+LLZShareMenu.h in Headers */,
+				6ABAA2A92033F4D55683EC6460158954 /* LLZShareLib-umbrella.h in Headers */,
+				BF0F32C606F81A1F1453FC60E154F478 /* LLZShareManager.h in Headers */,
+				72BF23928AADD0D79FD2C4956F1F37B5 /* LLZShareManager+ShareUI.h in Headers */,
+				3189A29CE7C1F2503E9CEC8A3262E2CC /* LLZShareMenuItem.h in Headers */,
+				E366E3630F36D3C89EF17D4A5FBBFE4C /* LLZShareMenuManager.h in Headers */,
+				81662610C7601BD00B83F2810859E2F6 /* LLZShareMenuView.h in Headers */,
+				9B40ABB181F68F84968600CD8E1DF935 /* LLZShareObject+LLZShareLib.h in Headers */,
+				B7606B4B60363507A3BA9094ED3E7D07 /* LLZSharePhoneHandler.h in Headers */,
+				3AD18C0753190B998D11BFE9E33B1A04 /* LLZShareSaveImageHandler.h in Headers */,
+				51796F5B68D04DD86A01AAFE73716072 /* LLZShareSaveVideoHandler.h in Headers */,
+				DD2F5D71534E67A1E1DB2CC0F8625257 /* LLZShareSMSHandler.h in Headers */,
+				18F93ABD9E1CE14E7017D5888E04ACFD /* LLZShareUtils.h in Headers */,
+				B16168C613F573C34A048FAF797013AC /* NSString+LLZShareLib.h in Headers */,
+				338B31D06893963A48243E988B36496C /* UIViewController+Utils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F906162693278AEACFCC209E95D39F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8CDDDDAE5ACF57379338E917958217 /* Constant.h in Headers */,
+				49ACDF9F4823E7ACEDE25A5E8FD33F4A /* GetMessageFromWXResp+responseWithTextOrMediaMessage.h in Headers */,
+				D0517AF330F19D597F19209145AB9BE4 /* LLZShareWechatHandler.h in Headers */,
+				2717F60284A2AA71C88D047DDDE6827E /* LLZShareWX-umbrella.h in Headers */,
+				0967F951D5DCC9A87366573479CCD4D7 /* SendMessageToWXReq+requestWithTextOrMediaMessage.h in Headers */,
+				C512DD3F89118F93015E5911641E0208 /* WechatAuthSDK.h in Headers */,
+				7D818C14D979930D45E07AE204180A60 /* WXApiManager.h in Headers */,
+				945CF3BED6808C35DD1394790D966968 /* WXApiRequestHandler.h in Headers */,
+				277069AF6A705CEFF55809A9095BE158 /* WXApiRequestSender.h in Headers */,
+				DDB6C0DEB77FB830854CEA587975C95B /* WXApiResponseHandler.h in Headers */,
+				184FBABE68CDB775D7595B3353FE1331 /* WXMediaMessage+messageConstruct.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0169C7AABCB89D7D6C8674483A9FC22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D669CBEBE3B6F2B81ECC3E839E224D3 /* KSApi.h in Headers */,
+				E62CA758AB890387C7C800B1718A4FC2 /* KSApiObject.h in Headers */,
+				477160F4428714D3DCAE08BA617F1F30 /* LLZShareKS-umbrella.h in Headers */,
+				291D9A39E3E7F260654AE8D92D387DF0 /* LLZShareKSHandler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2AFE43F775C2375BF389B2276622A566 /* LLZShareService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 473F751A1A49E803F6146D8E35993242 /* Build configuration list for PBXNativeTarget "LLZShareService" */;
+			buildPhases = (
+				A70BAB2C7120AD0515A03E3D3F15FFAE /* Headers */,
+				1F32DFCA5EE0F53755B722667802EB1F /* Sources */,
+				B09F1474226DD612765054106EB4484A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLZShareService;
+			productName = LLZShareService;
+			productReference = 6A5FB9F0079C5121102AB6288A8C3B29 /* LLZShareService */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4784AFF215B62EC21DB6AA6EF11FFAD0 /* LLZShareLib-ShareUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F247633A9B18F64385E972CEA2C2F4EB /* Build configuration list for PBXNativeTarget "LLZShareLib-ShareUI" */;
+			buildPhases = (
+				08F9ABBCCD67009E9DE29EA327C5DB5A /* Sources */,
+				123B3F68AD5303960E519D070A95B1D4 /* Frameworks */,
+				71C26CB535B626EB8A6775043133CC19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LLZShareLib-ShareUI";
+			productName = ShareUI;
+			productReference = CD93802712161D1F16269385641DA124 /* LLZShareLib-ShareUI */;
+			productType = "com.apple.product-type.bundle";
+		};
+		535042EBB5CD5644DBC3806D765ECD46 /* LLZShareKS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FE06F98BB9C7C337DA6E5F6BC42203C /* Build configuration list for PBXNativeTarget "LLZShareKS" */;
+			buildPhases = (
+				D0169C7AABCB89D7D6C8674483A9FC22 /* Headers */,
+				74EEE3376A133BFD5EEB766384489221 /* Sources */,
+				582A3104E2A8816821D27B4466B11B1B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D20C7A6AE5A556CDD7448C862970D8E8 /* PBXTargetDependency */,
+			);
+			name = LLZShareKS;
+			productName = LLZShareKS;
+			productReference = 8A3A221D58B3054151CC6B8200924965 /* LLZShareKS */;
+			productType = "com.apple.product-type.library.static";
+		};
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A0A4CF37D1B6C544206F7ABB1019283 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				81991DCEAC0FEF52F2DF22A60CCC07B5 /* Headers */,
+				A90AA157DFA7EBC73ADA17DA1DA3E22F /* Sources */,
+				8F083AA099BE90C1A74FF5AA34FF7EE2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry */;
+			productType = "com.apple.product-type.library.static";
+		};
+		84B44807A12996D487A4A591A481D6A0 /* YYModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDFD189DF2EA3ACFC27495661AFFD089 /* Build configuration list for PBXNativeTarget "YYModel" */;
+			buildPhases = (
+				53E34B889053CC15F1BDAA780D3793C7 /* Headers */,
+				6DA291D9E121DFCDC94B0A41199A9B11 /* Sources */,
+				52404B62ABECF111BE63CE92D9FAE9C5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYModel;
+			productName = YYModel;
+			productReference = E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel */;
+			productType = "com.apple.product-type.library.static";
+		};
+		94454F21BBA506847B32ED2CEC3FF03A /* LLZShareQQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9DD6DE01F5F6A78444B6359B3DF8D1E /* Build configuration list for PBXNativeTarget "LLZShareQQ" */;
+			buildPhases = (
+				3B2D39A508C8884890C505D7E80D688A /* Headers */,
+				4DC521BFFA35D37C0C53A17F878DA13D /* Sources */,
+				B21962904D3D9D1347AD6D7FF8F189D7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F2A4A306213CF71F55009B3CD69C5A9 /* PBXTargetDependency */,
+				9F4CCCEB1C771A39412B7298E3A8AA53 /* PBXTargetDependency */,
+			);
+			name = LLZShareQQ;
+			productName = LLZShareQQ;
+			productReference = 4398C45240A3D045FCF3DE5851FD53F5 /* LLZShareQQ */;
+			productType = "com.apple.product-type.library.static";
+		};
+		971ED2CBFE8DF29C935CB3888BA561D2 /* LLZShareDY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AEE99991FCE8B5C62946CD1A7898106 /* Build configuration list for PBXNativeTarget "LLZShareDY" */;
+			buildPhases = (
+				7FD986E1D1FDFF9B8F6BECB5A3171FCF /* Headers */,
+				BB393EDA00D35495681FB7AD9EF26708 /* Sources */,
+				5E03A22F1F2CE03D95517268502A9707 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C151DF8F4E012E6F564CFFED2B76C2E /* PBXTargetDependency */,
+			);
+			name = LLZShareDY;
+			productName = LLZShareDY;
+			productReference = 0EA54B4B0C62D9937272275341CFCBFE /* LLZShareDY */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A642EA1BD0264AC77545D41839F612BA /* LLZShareLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7E3D609A3627517732659BB9407A94 /* Build configuration list for PBXNativeTarget "LLZShareLib" */;
+			buildPhases = (
+				AD1D0BC6E01076ABEB2F03B84907B5C4 /* Headers */,
+				5B3B22CE5A1D76C453C93640BC5B6B54 /* Sources */,
+				CE7F09E48180D1E1CF2508183B156380 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				393C555071D3B6F3FE2F672126226194 /* PBXTargetDependency */,
+				6173C5ABFB8E90F820B38E367894A68C /* PBXTargetDependency */,
+				60A7FB6A041818AD3A066BAD27C37BFA /* PBXTargetDependency */,
+				9472DA3BA6CDB7FD09B44D8699804EDB /* PBXTargetDependency */,
+			);
+			name = LLZShareLib;
+			productName = LLZShareLib;
+			productReference = F3D4AA79AA5AC02048BCD7169F49673E /* LLZShareLib */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A719819E3D2862D64A55F6710700BF44 /* LLZShareWX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9683A1114D2079E30B139680148DA476 /* Build configuration list for PBXNativeTarget "LLZShareWX" */;
+			buildPhases = (
+				C5F906162693278AEACFCC209E95D39F /* Headers */,
+				49942A4A09A516F7CAF7897981435529 /* Sources */,
+				9CFFFFDE81966F82CB5BF95EAEB5E3CF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71C514CF6A71E4D2B8E0C477C73B445F /* PBXTargetDependency */,
+				BC6E65F94A3EAB1D757046FCD7AB5C98 /* PBXTargetDependency */,
+			);
+			name = LLZShareWX;
+			productName = LLZShareWX;
+			productReference = DBF20ED15B4DE966D1F4EF337D2DD503 /* LLZShareWX */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E2DE192ED84B2CCBDB3058A99CEC0360 /* Pods-PROJECT_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0A98B251A1C86A4EAF639AF37DE7C8 /* Build configuration list for PBXNativeTarget "Pods-PROJECT_Example" */;
+			buildPhases = (
+				268DB7E0FEC8AFB48BFFC62C0BE176F2 /* Headers */,
+				8FE7CD5BF68DDFF66D48AC77CA0E81C9 /* Sources */,
+				960CAC9C64DBC035CD23E153CE2BA5D4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB0A28D10F38387B66A6005E04673F0A /* PBXTargetDependency */,
+				69F19AAFE2C88963F6164AD4116D61BE /* PBXTargetDependency */,
+				E3C04EF38C4419E06B93BAA4184EE08E /* PBXTargetDependency */,
+				056C67890E689D6CDEE6729BA8D2093E /* PBXTargetDependency */,
+				C23379822C22FCF1FD7CFDBDA9AE372B /* PBXTargetDependency */,
+				974C51A1200CEAD8C8677743F7DA3E7F /* PBXTargetDependency */,
+				00B6B3850A9D3B6223C73C971034233D /* PBXTargetDependency */,
+				DAA9B48C2F1E2189E47D98D2D9279242 /* PBXTargetDependency */,
+				DD40EA1FE43A8B2D7B9E8C12EB930717 /* PBXTargetDependency */,
+				62CE1EA746EFDD919C60C1E13B9DFF32 /* PBXTargetDependency */,
+			);
+			name = "Pods-PROJECT_Example";
+			productName = "Pods-PROJECT_Example";
+			productReference = F0D8AE8CD70880C48D2A8579896CD8D7 /* Pods-PROJECT_Example */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E7B924D1545E15532F4D25C1489E35E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				971ED2CBFE8DF29C935CB3888BA561D2 /* LLZShareDY */,
+				535042EBB5CD5644DBC3806D765ECD46 /* LLZShareKS */,
+				A642EA1BD0264AC77545D41839F612BA /* LLZShareLib */,
+				4784AFF215B62EC21DB6AA6EF11FFAD0 /* LLZShareLib-ShareUI */,
+				94454F21BBA506847B32ED2CEC3FF03A /* LLZShareQQ */,
+				2AFE43F775C2375BF389B2276622A566 /* LLZShareService */,
+				A719819E3D2862D64A55F6710700BF44 /* LLZShareWX */,
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
+				E2DE192ED84B2CCBDB3058A99CEC0360 /* Pods-PROJECT_Example */,
+				CA97C3765B8E3DCC8E1F8E386E78EC22 /* TencentOpenAPI */,
+				8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */,
+				84B44807A12996D487A4A591A481D6A0 /* YYModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71C26CB535B626EB8A6775043133CC19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA27B3906358F5AF5730E1FAAFD64F08 /* dx@2x.png in Resources */,
+				E317C27449E2D018FF23135953F0DE4D /* dx@3x.png in Resources */,
+				1B81A3770636F059B4CE3557FF7E61F2 /* icon_douyin@2x.png in Resources */,
+				07ABE9BF8781884A15D71275EFE95039 /* icon_douyin@3x.png in Resources */,
+				05A759670D6524B5EDE8DF0F1271E276 /* icon_download@2x.png in Resources */,
+				19EC7407500031A9353CC45EEA669982 /* icon_download@3x.png in Resources */,
+				86F7CE5DBBA30A3EE0AF13FDC87D140C /* icon_kuaishou@2x.png in Resources */,
+				C2AE56959D15EB65715B44CC717319CA /* icon_kuaishou@3x.png in Resources */,
+				E9A2CCA3379CBF8887A656EEAFB4D7D1 /* icon_phone@2x.png in Resources */,
+				12742CBC7C3F9CA64495AB46A50488EA /* icon_phone@3x.png in Resources */,
+				4269438A16E3D7495A14E1C429554F0C /* icon_share_close@2x.png in Resources */,
+				6CD9C915C22F8EC1177CD2C1EAC68C17 /* icon_share_close@3x.png in Resources */,
+				EF6E23F0F4379F8BBA61F935F6CD9106 /* icon_share_custom@2x.png in Resources */,
+				477BF10553D03AC4F8FCD1F9E1F55F76 /* icon_share_custom@3x.png in Resources */,
+				CCAEA4C704E784CF6700972EDFF8AC36 /* icon_share_qq@2x.png in Resources */,
+				9ADD95B6801D7FB54BA5797F0D067AD5 /* icon_share_qq@3x.png in Resources */,
+				C2E33548066D42574D9E7FF9C66824A6 /* icon_share_qzone@2x.png in Resources */,
+				C8E6ECD4A4EB28889E0C9A4CA3FBC59D /* icon_share_qzone@3x.png in Resources */,
+				FA5D507D0208D2742FB803C3193F983B /* pyq@2x.png in Resources */,
+				73A6BD15C43EBEB3676ABDC0E4B70172 /* pyq@3x.png in Resources */,
+				73C812A92B953DAD70CBF94CD57BDDFC /* Root.plist in Resources */,
+				DE67002AAF782A69C2A1B90D94A05A0A /* saveimg@2x.png in Resources */,
+				D3905BD49B414D723FF29318E1927987 /* saveimg@3x.png in Resources */,
+				805E2468585B73FB4052417B480C30A6 /* wx@2x.png in Resources */,
+				CAF2076B128C26459A833888BF4D5DD2 /* wx@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08F9ABBCCD67009E9DE29EA327C5DB5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F32DFCA5EE0F53755B722667802EB1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99EBF5F9646C74131A646C78F2E47C4 /* LLZShareChannelObjectWrapper.m in Sources */,
+				ACE499A986037F6351B66D6B8AE74DA2 /* LLZShareContextModel.m in Sources */,
+				456FD496E2ED33423B10D0F157BDCAA8 /* LLZShareDefine.m in Sources */,
+				42A19D19E317FED23512A4CC00BA840F /* LLZShareObject.m in Sources */,
+				0F9DAB8F03CF3DD76B5981EAE1966342 /* LLZShareService-dummy.m in Sources */,
+				89614AB7F714930729499A65B0CE2D61 /* LLZShareUIConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49942A4A09A516F7CAF7897981435529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6258FAEB11CA573C7B15D617EB03F3 /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m in Sources */,
+				5C50E7519C7EA7AC743A49AC8C12DAD4 /* LLZShareWechatHandler.m in Sources */,
+				3395DF25F0C5C4208FD405EBCE053BDF /* LLZShareWX-dummy.m in Sources */,
+				006566302BC875E76C2FC2070FCBBFDF /* SendMessageToWXReq+requestWithTextOrMediaMessage.m in Sources */,
+				4563B57EFFB0414AAD9E7B2D984A480C /* WXApiManager.m in Sources */,
+				506DF5B80F6701D5BBA915E3A90FD39B /* WXApiRequestHandler.m in Sources */,
+				AE330909BC20E8910F2A62D077A6DDF7 /* WXApiRequestSender.m in Sources */,
+				AA42408B30F3AA27C25DF802D4DB53FC /* WXApiResponseHandler.m in Sources */,
+				1718550C18CC20969130F278FA177EC6 /* WXMediaMessage+messageConstruct.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC521BFFA35D37C0C53A17F878DA13D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333057A1644E728A18F57FEA0C971326 /* LLZShareQQ-dummy.m in Sources */,
+				DD40BFEBB0EE17CC9ACE0A5445196C1A /* LLZShareQQHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B3B22CE5A1D76C453C93640BC5B6B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D59CA992A8C1BF5C4FAA756B9C93EAC /* LLZContext.m in Sources */,
+				F2A25CB2D17AFD99BBA95308ACAE0451 /* LLZGPopupMaskConfig.m in Sources */,
+				513C8A2B5ACA46B94DFBEDEC7D7660D1 /* LLZGPopupMaskView.m in Sources */,
+				C34A26A8B1281B254A169468B29462FB /* LLZService.m in Sources */,
+				C49EABF976D6D8D98FC3EBA67B9B5855 /* LLZServiceCenter.m in Sources */,
+				5A0AE1E80896002073D1067E256595ED /* LLZShareChannelHandler.m in Sources */,
+				F3D41B20A20843403C099754AEF06951 /* LLZShareChannelManager.m in Sources */,
+				0F9415E516E9BDC13C5BCE09C2A2CDB9 /* LLZShareEventTracker.m in Sources */,
+				51E72A2E725F3E31EDFFF623CC3EB2FD /* LLZShareEventTracker+LLZShareMenu.m in Sources */,
+				E8557838644A197AC972EB1F8E6B888A /* LLZShareLib-dummy.m in Sources */,
+				5B0B15987BF989D6DE7EFF2F1ADA9FAB /* LLZShareManager.m in Sources */,
+				5982ED325D352AAC381F5ED8C036A79E /* LLZShareManager+ShareUI.m in Sources */,
+				CB2076D2A89BEC04F398EF77370B25B7 /* LLZShareMenuItem.m in Sources */,
+				DDF48D9438B0A00A63667D5056D26BBE /* LLZShareMenuManager.m in Sources */,
+				0B1C9273FC7CACDC8678E0171220423D /* LLZShareMenuView.m in Sources */,
+				0B3059E0F7B4BB758813A2084B2AF909 /* LLZShareObject+LLZShareLib.m in Sources */,
+				0A089E94205D7A2FEC95EC5A20E1075B /* LLZSharePhoneHandler.m in Sources */,
+				6B7EC97DE08E086AE937109B7F8A61EA /* LLZShareSaveImageHandler.m in Sources */,
+				6D1CA9F7883E30878C9065621D0CC235 /* LLZShareSaveVideoHandler.m in Sources */,
+				9135B82BB28000129D31E3F8B11E0FE2 /* LLZShareSMSHandler.m in Sources */,
+				6F5D2078F3692428E2D92EA93AD0D3B4 /* LLZShareUtils.m in Sources */,
+				EE2EA4BF811DA272D3E887189BCD405E /* NSString+LLZShareLib.m in Sources */,
+				61D390F75D29862E990FA3BDE88B3368 /* UIViewController+Utils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA291D9E121DFCDC94B0A41199A9B11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0E7887882EF877C01D5B030A2F5022 /* NSObject+YYModel.m in Sources */,
+				4B3F497B0C7B07683C0F8008A56D981F /* YYClassInfo.m in Sources */,
+				F6D0A73B94105AD24EA10AFE9AC91EB1 /* YYModel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74EEE3376A133BFD5EEB766384489221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF5F60D06C0D120B27C24E7F093E62A /* KwaiSDK.podspec.json in Sources */,
+				FD98804FF4B69BBA2AA08FC8B1161892 /* libKwaiSDK.a in Sources */,
+				0EDE6CD421EAB9685867CF0D6D6E5051 /* LLZShareKS-dummy.m in Sources */,
+				981693467B70479417318F8B84CCEF39 /* LLZShareKSHandler.m in Sources */,
+				B08746FD69C5E31824DC9B93DF876F14 /* source.txt in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE7CD5BF68DDFF66D48AC77CA0E81C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6EA34F8CBF64CEE101B2E25B0AA7B6 /* Pods-PROJECT_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90AA157DFA7EBC73ADA17DA1DA3E22F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285EF7BEEEF0E99AA36E960FE6DFF20D /* MASCompositeConstraint.m in Sources */,
+				A4D3A453493EB576D981647A34FDB013 /* MASConstraint.m in Sources */,
+				8F0113D5B3FCA046CA7692E95040D92B /* MASConstraintMaker.m in Sources */,
+				0E7FBC1F4577A1A27B6E8F6AD366B0B9 /* MASLayoutConstraint.m in Sources */,
+				4164F8B18B08E11F81746C9B8D9EA3EF /* Masonry-dummy.m in Sources */,
+				FB03124AA24F96004D2968933F234A89 /* MASViewAttribute.m in Sources */,
+				E75C696FE493F40AA1C606DD01A6466A /* MASViewConstraint.m in Sources */,
+				25D054E76C3ABA4EB56A93D2A712C9C3 /* NSArray+MASAdditions.m in Sources */,
+				34D9813FB2AD28A5FC9E5DBDD0B24229 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				2E1BB3567BEE82C1E0B01F50820CCFA0 /* View+MASAdditions.m in Sources */,
+				80516BF94D2F0D26F5417BB005F193FB /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB393EDA00D35495681FB7AD9EF26708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928C0FA03E275E4C490FE4E4C6FEEFF8 /* LLZShareDY-dummy.m in Sources */,
+				DBE0EDB69F8FD403D3965FB6CAA05D69 /* LLZShareDYHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00B6B3850A9D3B6223C73C971034233D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = B134EE53B73F668C1D7C46DD07EE4750 /* PBXContainerItemProxy */;
+		};
+		056C67890E689D6CDEE6729BA8D2093E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLZShareQQ;
+			target = 94454F21BBA506847B32ED2CEC3FF03A /* LLZShareQQ */;
+			targetProxy = A12693C3A8DC0B1B4ABADA24D1293C8B /* PBXContainerItemProxy */;
+		};
+		0F2A4A306213CF71F55009B3CD69C5A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLZShareLib;
+			target = A642EA1BD0264AC77545D41839F612BA /* LLZShareLib */;
+			targetProxy = 752370CA77BADDEBFBB1A1837BE21E07 /* PBXContainerItemProxy */;
+		};
+		393C555071D3B6F3FE2F672126226194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LLZShareLib-ShareUI";
+			target = 4784AFF215B62EC21DB6AA6EF11FFAD0 /* LLZShareLib-ShareUI */;
+			targetProxy = 02A98D5EFB67BBE55E00B8E1D2297E18 /* PBXContainerItemProxy */;
+		};
+		60A7FB6A041818AD3A066BAD27C37BFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = B895628EFC0B9C0DCD9805BB03313364 /* PBXContainerItemProxy */;
+		};
+		6173C5ABFB8E90F820B38E367894A68C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLZShareService;
+			target = 2AFE43F775C2375BF389B2276622A566 /* LLZShareService */;
+			targetProxy = 6CC8767D43CAB239BA4738F24008D4C3 /* PBXContainerItemProxy */;
+		};
+		62CE1EA746EFDD919C60C1E13B9DFF32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			target = 84B44807A12996D487A4A591A481D6A0 /* YYModel */;
+			targetProxy = 4409E029F9756D371EAC424B094AA863 /* PBXContainerItemProxy */;
+		};
+		69F19AAFE2C88963F6164AD4116D61BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLZShareKS;
+			target = 535042EBB5CD5644DBC3806D765ECD46 /* LLZShareKS */;
+			targetProxy = 1351EB0DFD46FCE375FF1EF59E479DD0 /* PBXContainerItemProxy */;
+		};
+		71C514CF6A71E4D2B8E0C477C73B445F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLZShareLib;
+			target = A642EA1BD0264AC77545D41839F612BA /* LLZShareLib */;
+			targetProxy = CB00027F4CA5D4258D02B03A7165D2C7 /* PBXContainerItemProxy */;
+		};
+		9472DA3BA6CDB7FD09B44D8699804EDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			target = 84B44807A12996D487A4A591A481D6A0 /* YYModel */;
+			targetProxy = 0CEC0BF52715DC258B16BE304F2918B4 /* PBXContainerItemProxy */;
+		};
+		974C51A1200CEAD8C8677743F7DA3E7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLZShareWX;
+			target = A719819E3D2862D64A55F6710700BF44 /* LLZShareWX */;
+			targetProxy = CC9D75704B0BF59F7CE91DD8FAD5CE2C /* PBXContainerItemProxy */;
+		};
+		9C151DF8F4E012E6F564CFFED2B76C2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLZShareLib;
+			target = A642EA1BD0264AC77545D41839F612BA /* LLZShareLib */;
+			targetProxy = E431784565FE76E464B931CCB170982F /* PBXContainerItemProxy */;
+		};
+		9F4CCCEB1C771A39412B7298E3A8AA53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TencentOpenAPI;
+			target = CA97C3765B8E3DCC8E1F8E386E78EC22 /* TencentOpenAPI */;
+			targetProxy = 8490CFB2201433AB36DDC9C2AF345ABA /* PBXContainerItemProxy */;
+		};
+		BC6E65F94A3EAB1D757046FCD7AB5C98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLZShareService;
+			target = 2AFE43F775C2375BF389B2276622A566 /* LLZShareService */;
+			targetProxy = 56548F784B16D705FD2850471B7E4C66 /* PBXContainerItemProxy */;
+		};
+		C23379822C22FCF1FD7CFDBDA9AE372B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLZShareService;
+			target = 2AFE43F775C2375BF389B2276622A566 /* LLZShareService */;
+			targetProxy = 0CF44AD531991B865BAC991779EB4269 /* PBXContainerItemProxy */;
+		};
+		D20C7A6AE5A556CDD7448C862970D8E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLZShareLib;
+			target = A642EA1BD0264AC77545D41839F612BA /* LLZShareLib */;
+			targetProxy = E76863D7090C63F6AF9004C0ACEECD42 /* PBXContainerItemProxy */;
+		};
+		DAA9B48C2F1E2189E47D98D2D9279242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TencentOpenAPI;
+			target = CA97C3765B8E3DCC8E1F8E386E78EC22 /* TencentOpenAPI */;
+			targetProxy = 8E429D0597318D3F8E273A92FA7C35CC /* PBXContainerItemProxy */;
+		};
+		DB0A28D10F38387B66A6005E04673F0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLZShareDY;
+			target = 971ED2CBFE8DF29C935CB3888BA561D2 /* LLZShareDY */;
+			targetProxy = 981B5786BE508ED4A0F6EBD02C439964 /* PBXContainerItemProxy */;
+		};
+		DD40EA1FE43A8B2D7B9E8C12EB930717 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = 86DAB36FC820DD776EBC77E0918FE584 /* PBXContainerItemProxy */;
+		};
+		E3C04EF38C4419E06B93BAA4184EE08E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLZShareLib;
+			target = A642EA1BD0264AC77545D41839F612BA /* LLZShareLib */;
+			targetProxy = 86BA8FA63FCCBB7E6FF87807040ACF2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02572A2D9C31180DD1BE0EE483E51654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E39B160472AF8CB8C99B8EC37D2120 /* LLZShareLib.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LLZShareLib";
+				IBSC_MODULE = LLZShareLib;
+				INFOPLIST_FILE = "Target Support Files/LLZShareLib/ResourceBundle-ShareUI-LLZShareLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = ShareUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		06812718E1023CAD0C7D2230EDE460A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29FC36913E791CAF686BDFEA1B589388 /* LLZShareDY.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LLZShareDY/LLZShareDY-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/LLZShareDY/LLZShareDY.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LLZShareDY;
+				PRODUCT_NAME = LLZShareDY;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E11BB440AA03ED46947BEB7EE88E4B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AF7240521DFEB8AC1981D153D0E3EDC /* LLZShareService.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LLZShareService/LLZShareService-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/LLZShareService/LLZShareService.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LLZShareService;
+				PRODUCT_NAME = LLZShareService;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19EB48C8530FBA1DDEA8FFCDD602F307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2CF62C6BA9F94BFE4C327F10C517156 /* WechatOpenSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CD7568649619B8FCEFB127E0F7A9EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C5D18D7D8CD1E5E0A73CE2442D582A /* TencentOpenAPI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D6D65E9886346A5150AE4721BD4967D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59F98F2B1B3396FED1A4677E9EFBD47B /* LLZShareLib.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LLZShareLib/LLZShareLib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/LLZShareLib/LLZShareLib.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LLZShareLib;
+				PRODUCT_NAME = LLZShareLib;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E233B17908D72C2D0F4CA6CAD782374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EC9C746E4B3E61FEA0FD44DF6414A1 /* LLZShareWX.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LLZShareWX/LLZShareWX-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/LLZShareWX/LLZShareWX.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LLZShareWX;
+				PRODUCT_NAME = LLZShareWX;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B9C2D7E5D35215129F359EB54489F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A585CA875C2AB10528F39CA44D733ABA /* LLZShareQQ.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LLZShareQQ/LLZShareQQ-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/LLZShareQQ/LLZShareQQ.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LLZShareQQ;
+				PRODUCT_NAME = LLZShareQQ;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CA3EFD76FDC70C661467B1C007843F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 166A0CD62F6498DABB13EDF527E35855 /* Masonry.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MODULEMAP_FILE = Headers/Public/Masonry/Masonry.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DA758DB19D3113F9684C96FCC51C718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A74EA3A0FF6848606BB6093F360AE36 /* LLZShareKS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LLZShareKS/LLZShareKS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/LLZShareKS/LLZShareKS.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LLZShareKS;
+				PRODUCT_NAME = LLZShareKS;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62445C182BBEFE408329330160B1FC4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E39B160472AF8CB8C99B8EC37D2120 /* LLZShareLib.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LLZShareLib/LLZShareLib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/LLZShareLib/LLZShareLib.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LLZShareLib;
+				PRODUCT_NAME = LLZShareLib;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70D0E22828FCA22F3BC2FFA77FE9C5BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2383B3CF214939282ECCBDFCD8007F25 /* LLZShareQQ.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LLZShareQQ/LLZShareQQ-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/LLZShareQQ/LLZShareQQ.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LLZShareQQ;
+				PRODUCT_NAME = LLZShareQQ;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71BDA31C8F2CD5C8E13DB8E79555105C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F4D15E18F1159EF35790351DE87AB43 /* LLZShareKS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LLZShareKS/LLZShareKS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/LLZShareKS/LLZShareKS.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LLZShareKS;
+				PRODUCT_NAME = LLZShareKS;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		890E28C558874D9B9A548633EAF8C5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AEB1909BB05BA52C54BA4EC3D1B6F6D /* LLZShareWX.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LLZShareWX/LLZShareWX-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/LLZShareWX/LLZShareWX.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LLZShareWX;
+				PRODUCT_NAME = LLZShareWX;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		912566C06A4732A4B730041BF64A62A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6873CAFA85DF9705EC41C6C898AE4969 /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MODULEMAP_FILE = Headers/Public/Masonry/Masonry.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3B1026F04498F6D3F71F074659E8898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED40DED214F214E30CF63D0C1D5DB9B2 /* LLZShareDY.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LLZShareDY/LLZShareDY-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/LLZShareDY/LLZShareDY.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LLZShareDY;
+				PRODUCT_NAME = LLZShareDY;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE22D119AB60CFBEA52F8B3FB91CDB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66DD75677024EAF7B168B1BD5F4930D2 /* YYModel.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MODULEMAP_FILE = Headers/Public/YYModel/YYModel.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YYModel;
+				PRODUCT_NAME = YYModel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6692BB04A1CF59BA71B55DA85780D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8928BB084553635106975F32F3AB676B /* Pods-PROJECT_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C83BD49D41DAB4C945E749E9B28E4603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59F98F2B1B3396FED1A4677E9EFBD47B /* LLZShareLib.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LLZShareLib";
+				IBSC_MODULE = LLZShareLib;
+				INFOPLIST_FILE = "Target Support Files/LLZShareLib/ResourceBundle-ShareUI-LLZShareLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = ShareUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D6E88CB7E1BB101EAE5E87C2479BC815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9B3563489ADE8B4159762FB714D03DA /* TencentOpenAPI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E006A4E32F2559CE899959A954169E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BCD7C246E2E379DDCB7D1202D5AEDDC /* LLZShareService.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LLZShareService/LLZShareService-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/LLZShareService/LLZShareService.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LLZShareService;
+				PRODUCT_NAME = LLZShareService;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4993F72850C19ED80615B9EE67160B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1DC6275FBC7455722056A4C3BE2F7D8 /* Pods-PROJECT_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9034C3C8B274D7A7C62065B44D4B763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7C1567BE4CF8368CE47E8E0A3EEF14 /* WechatOpenSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6380A8A230A89BFEDA898A14492559D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09352F06A9E1526D41DC3C8D43AE5282 /* YYModel.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MODULEMAP_FILE = Headers/Public/YYModel/YYModel.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YYModel;
+				PRODUCT_NAME = YYModel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		473F751A1A49E803F6146D8E35993242 /* Build configuration list for PBXNativeTarget "LLZShareService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E11BB440AA03ED46947BEB7EE88E4B9 /* Debug */,
+				E006A4E32F2559CE899959A954169E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AEE99991FCE8B5C62946CD1A7898106 /* Build configuration list for PBXNativeTarget "LLZShareDY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B1026F04498F6D3F71F074659E8898 /* Debug */,
+				06812718E1023CAD0C7D2230EDE460A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9034C3C8B274D7A7C62065B44D4B763 /* Debug */,
+				19EB48C8530FBA1DDEA8FFCDD602F307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A0A4CF37D1B6C544206F7ABB1019283 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				912566C06A4732A4B730041BF64A62A0 /* Debug */,
+				5CA3EFD76FDC70C661467B1C007843F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FE06F98BB9C7C337DA6E5F6BC42203C /* Build configuration list for PBXNativeTarget "LLZShareKS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DA758DB19D3113F9684C96FCC51C718 /* Debug */,
+				71BDA31C8F2CD5C8E13DB8E79555105C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9683A1114D2079E30B139680148DA476 /* Build configuration list for PBXNativeTarget "LLZShareWX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E233B17908D72C2D0F4CA6CAD782374 /* Debug */,
+				890E28C558874D9B9A548633EAF8C5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB0A98B251A1C86A4EAF639AF37DE7C8 /* Build configuration list for PBXNativeTarget "Pods-PROJECT_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6692BB04A1CF59BA71B55DA85780D2D /* Debug */,
+				E4993F72850C19ED80615B9EE67160B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7E3D609A3627517732659BB9407A94 /* Build configuration list for PBXNativeTarget "LLZShareLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6D65E9886346A5150AE4721BD4967D /* Debug */,
+				62445C182BBEFE408329330160B1FC4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9DD6DE01F5F6A78444B6359B3DF8D1E /* Build configuration list for PBXNativeTarget "LLZShareQQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B9C2D7E5D35215129F359EB54489F0B /* Debug */,
+				70D0E22828FCA22F3BC2FFA77FE9C5BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA901136154EFC95EF456B34DFABA43E /* Build configuration list for PBXAggregateTarget "TencentOpenAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD7568649619B8FCEFB127E0F7A9EF0 /* Debug */,
+				D6E88CB7E1BB101EAE5E87C2479BC815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F247633A9B18F64385E972CEA2C2F4EB /* Build configuration list for PBXNativeTarget "LLZShareLib-ShareUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83BD49D41DAB4C945E749E9B28E4603 /* Debug */,
+				02572A2D9C31180DD1BE0EE483E51654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDFD189DF2EA3ACFC27495661AFFD089 /* Build configuration list for PBXNativeTarget "YYModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6380A8A230A89BFEDA898A14492559D /* Debug */,
+				BE22D119AB60CFBEA52F8B3FB91CDB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'LLZShareDY/Classes/**/*.{h,m,mm}'
 #  s.exclude_files = 'LLZShareDY/Classes/SocialPlatform/DouyinOpenSDK.framework'
-  s.dependency 'LLZShareLib', '~> 0.3'
+  s.dependency 'LLZShareLib', '~> 0.1'
 end

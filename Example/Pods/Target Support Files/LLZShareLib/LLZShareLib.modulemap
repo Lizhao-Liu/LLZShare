@@ -1,0 +1,6 @@
+module LLZShareLib {
+  umbrella header "LLZShareLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

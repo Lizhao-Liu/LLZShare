@@ -1,0 +1,29 @@
+{
+  "name": "LLZShareDY",
+  "version": "0.1.0",
+  "summary": "第三方分享平台抖音",
+  "description": "第三方分享平台抖音组件，提供抖音分享渠道处理类，抖音sdk等",
+  "homepage": "https://github.com/Lizhao-Liu/LLZShare",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Lizhao": "lizhaoliu97@gmail.com"
+  },
+  "source": {
+    "git": "git@github.com:Lizhao-Liu/LLZShare.git",
+    "tag": "LLZShareDY_0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "requires_arc": true,
+  "vendored_frameworks": "LLZShareDY/Classes/SocialPlatform/DouyinOpenSDK.framework",
+  "source_files": "LLZShareDY/Classes/**/*.{h,m,mm}",
+  "dependencies": {
+    "LLZShareLib": [
+      "~> 0.1"
+    ]
+  }
+}
