@@ -200,8 +200,6 @@ typedef NS_ENUM(NSUInteger, LLZShareChannelType) {
 
   LLZShareChannelTypeQzone           = 8,  // qq朋友圈
 
-  LLZShareChannelTypeMotorcade        = 9,  // 车队
-
   LLZShareChannelTypeDY               = 10, // 抖音
 
   LLZShareChannelTypeKS               = 11, // 快手
